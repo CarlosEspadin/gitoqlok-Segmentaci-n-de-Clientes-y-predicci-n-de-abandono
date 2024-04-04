@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "f4b166b2-92db-40fa-8551-df8e35ab0e55",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vProbabilidades",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "proba_Best",
+  "tags": []
+}

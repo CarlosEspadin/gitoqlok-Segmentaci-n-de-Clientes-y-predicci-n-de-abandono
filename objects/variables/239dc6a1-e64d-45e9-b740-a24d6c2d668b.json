@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "239dc6a1-e64d-45e9-b740-a24d6c2d668b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFrecuencia",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "6",
+  "tags": []
+}

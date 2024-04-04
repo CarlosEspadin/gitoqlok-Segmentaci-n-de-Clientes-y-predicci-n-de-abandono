@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "52a32582-d2d0-4c80-be9d-8151533d59b0",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSing",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "tags": []
+}

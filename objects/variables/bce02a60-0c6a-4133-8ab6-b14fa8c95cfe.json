@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "bce02a60-0c6a-4133-8ab6-b14fa8c95cfe",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vDim",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Tiempo_ultima_compra",
+  "tags": []
+}

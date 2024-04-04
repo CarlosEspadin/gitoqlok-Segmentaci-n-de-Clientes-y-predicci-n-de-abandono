@@ -1,0 +1,13 @@
+{
+  "qInfo": {
+    "qId": "eab86394-e81a-43c6-8450-08c177235c75",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vYear",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  }
+}

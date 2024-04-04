@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "97d048c2-4c68-48fa-9ac6-92a2051e5636",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vChurn",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Num(Count(distinct {<Churn={'True'}>}  Sold_to)/Count(distinct Sold_to),'0.00%' )",
+  "tags": []
+}

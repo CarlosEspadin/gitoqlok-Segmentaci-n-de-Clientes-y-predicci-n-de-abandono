@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "89d5a555-7634-43fe-8904-bd16eb6ba9aa",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSalesInvoice",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "lib://Qlik Base Folder/SourceDocuments/Transformation Layer/Regional/NA/QlikMart/QVD"
+}

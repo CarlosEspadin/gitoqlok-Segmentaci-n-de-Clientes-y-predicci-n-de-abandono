@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "2f9b0656-8923-41fb-9d6a-ac90b17c7dfb",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "Ceros",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "15"
+}

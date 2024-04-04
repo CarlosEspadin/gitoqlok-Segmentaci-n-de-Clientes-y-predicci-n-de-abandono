@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "66cb9a0a-8f7a-4467-9b32-a13b80a263b6",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vYearMin",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Min([Año_Registro])",
+  "tags": []
+}

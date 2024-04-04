@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "5993c127-7bdd-401e-929a-b03a8708edec",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vYearMax",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Max([Año_Registro])",
+  "tags": []
+}

@@ -1,0 +1,11 @@
+{
+  "qTitle": "Segmentación de Clientes y predicción de abandono",
+  "qThumbnail": {
+    "qUrl": "/appcontent/9f1c1bc6-2a66-4b14-bc1a-ae0820562613/churn.jpg"
+  },
+  "published": false,
+  "publishTime": "1753-01-01T00:00:00.000Z",
+  "description": "Este tablero muestra los resultados del data pipe line  Churn Rate, cuyo propósito es realizar estimaciones de la probabilidad de abandono de un cliente de Syngenta.\n\nAquí podemos encontrar información histórica de facturación de los clientes, así como los datos predictivos de los modelos ML.",
+  "dynamicColor": "hsla(253,18%,43%,1)",
+  "stream": null
+}

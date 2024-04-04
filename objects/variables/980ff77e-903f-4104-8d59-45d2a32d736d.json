@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "980ff77e-903f-4104-8d59-45d2a32d736d",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vPath",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "lib://SharedFolder",
+  "qIsScriptCreated": true
+}

@@ -5,6 +5,24 @@
 Aquí podemos encontrar información histórica de facturación de los clientes, así como los datos predictivos de los modelos ML.
 Created By CarlosEspadin(Carlos Espadin Medina) at Wed Apr 03 2024 23:46:28 GMT-0600 (hora estándar central)
 
+
+
+
+Sheet Title | Description
+------------ | -------------
+Extracción|
+Facturación|
+Resultados|
+Modelos Predictivos|
+Introducción|
+Background|
+Mi nueva hoja|
+Pipe Line|
+Churn|
+Datos Numéricos|
+
+
+
 Branch Name|Qlik application
 ---|---
 main|[NaN/sense/app/undefined](NaN/sense/app/undefined)

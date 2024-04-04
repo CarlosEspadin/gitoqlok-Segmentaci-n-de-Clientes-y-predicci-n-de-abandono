@@ -1,0 +1,613 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "b69d4764-e0e5-4b2f-bca9-ed503c9a2241",
+      "qType": "story"
+    },
+    "qMetaDef": {
+      "title": "Presentación",
+      "description": ""
+    },
+    "rank": -1,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "qChildListDef": {
+      "qData": {
+        "title": "/title",
+        "rank": "/rank"
+      }
+    }
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "DqKzDJP",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 0,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "JRhVH",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "481c4c9d-3a01-4075-a8d6-cda31d168a32",
+            "ratio": false,
+            "position": {
+              "width": "94%",
+              "height": "98%",
+              "left": "1.5%",
+              "right": "4,5%",
+              "top": "0%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "5e3bdcec-dd6d-433f-8e31-75cf56568447",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-24T07:39:16.795Z",
+              "title": "",
+              "sheetId": "481c4c9d-3a01-4075-a8d6-cda31d168a32",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 7,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45131.360601851855,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "fJNaMKB",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 2,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "jDKQXF",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "48895209-d084-4571-8396-6b2a6f001bf9",
+            "ratio": false,
+            "position": {
+              "top": "1%",
+              "left": "1.5%",
+              "width": "94%",
+              "height": "98%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "40d72a60-55a5-42d9-9a00-a36075c555c2",
+                "qType": "bookmark"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-24T07:40:19.303Z",
+              "title": "",
+              "sheetId": "48895209-d084-4571-8396-6b2a6f001bf9",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 11,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45131.36133101852,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "dpTkxTb",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 4,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "ndDYe",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "c6a5f80d-402b-4a39-aa13-60886b341ae9",
+            "ratio": false,
+            "position": {
+              "top": "1%",
+              "left": "1.5%",
+              "width": "94%",
+              "height": "98%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "4d5d3733-1981-4d8a-9fbc-ded40307e334",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-25T00:07:54.542Z",
+              "title": "",
+              "sheetId": "c6a5f80d-402b-4a39-aa13-60886b341ae9",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 29,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45132.04715277778,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "TmUQzpB",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 5,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "CpNhpnJ",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "ad786300-eda8-47a5-9f42-3a033c5e2296",
+            "ratio": false,
+            "position": {
+              "top": "1%",
+              "left": "1.5%",
+              "width": "94%",
+              "height": "98%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "726e5a50-8668-4022-a31d-c60d9743b48d",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-25T00:08:03.136Z",
+              "title": "",
+              "sheetId": "ad786300-eda8-47a5-9f42-3a033c5e2296",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 31,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45132.04725694445,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "fbArws",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 6,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "MtCDnQg",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "71c4ae69-ed18-46ec-9752-8220f72dfaf2",
+            "ratio": false,
+            "position": {
+              "top": "1%",
+              "left": "1.5%",
+              "width": "94%",
+              "height": "98%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "cc0d92fb-85e5-4c08-b87f-5b20cd383fbc",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-25T00:08:21.132Z",
+              "title": "",
+              "sheetId": "71c4ae69-ed18-46ec-9752-8220f72dfaf2",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 32,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45132.04746527778,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "BCYhFFM",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 7,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "Ujbkj",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "330ec96a-8796-404a-b680-c4403558bab4",
+            "ratio": false,
+            "position": {
+              "top": "1%",
+              "left": "1.5%",
+              "width": "94%",
+              "height": "98%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "8ea0da03-d1d1-4567-b06f-e8df81748f9c",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-25T00:09:24.358Z",
+              "title": "",
+              "sheetId": "330ec96a-8796-404a-b680-c4403558bab4",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 41,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45132.04819444445,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "htMRmBy",
+          "qType": "slide"
+        },
+        "qMetaDef": {},
+        "rank": 8,
+        "qChildListDef": {
+          "qData": {
+            "title": "/title",
+            "sheetId": "/sheetId",
+            "ratio": "/ratio",
+            "position": "/position",
+            "dataPath": "/dataPath",
+            "srcPath": "/srcPath",
+            "visualization": "/visualization",
+            "visualizationType": "/visualizationType",
+            "style": "/style"
+          }
+        }
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "yVRjM",
+              "qType": "slideitem"
+            },
+            "qMetaDef": {},
+            "qEmbeddedSnapshotDef": {},
+            "title": "",
+            "sheetId": "15e2b8df-ac73-4602-bb2b-a3d207823775",
+            "ratio": false,
+            "position": {
+              "top": "1%",
+              "left": "1.5%",
+              "width": "94%",
+              "height": "98%",
+              "z-index": 4
+            },
+            "visualization": "sheet"
+          },
+          "qChildren": [],
+          "qEmbeddedSnapshotRef": {
+            "qProperties": {
+              "qInfo": {
+                "qId": "8e6654ea-1bb0-4d42-8b16-6df75020f0a7",
+                "qType": "embeddedsnapshot"
+              },
+              "qMetaDef": {
+                "title": "",
+                "description": ""
+              },
+              "creationDate": "2023-07-25T00:09:29.978Z",
+              "title": "",
+              "sheetId": "15e2b8df-ac73-4602-bb2b-a3d207823775",
+              "selectionFields": [],
+              "selectionsInStates": [
+                {
+                  "stateName": "$",
+                  "qSelectionObject": {
+                    "qBackCount": 42,
+                    "qForwardCount": 0,
+                    "qSelections": []
+                  }
+                }
+              ]
+            },
+            "qBookmark": {
+              "qStateData": [
+                {
+                  "qStateName": "$",
+                  "qFieldItems": []
+                }
+              ],
+              "qUtcModifyTime": 45132.048263888886,
+              "qVariableItems": [],
+              "qPatches": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

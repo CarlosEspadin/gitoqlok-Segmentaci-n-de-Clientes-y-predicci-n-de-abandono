@@ -1,0 +1,34 @@
+///$tab Mio
+LIB CONNECT TO 'Amazon_Redshift_MIO_PROD_Copy';
+
+BP_Temp:
+Load *;
+select distinct
+	mbm.account_name_id,
+	mbm.account_type_fr,
+    mbm.unique_key,
+	mbv.bp_cid,
+	mbv.bp_id
+from mio.public.mio03_bp_main mbm
+left join mio.public.mio03_bp_affiliation mba on mba.bp_guid = mbm.bp_guid
+left join mio.public.mio03_bp_main mbm_parent on mbm_parent.bp_guid = mba.parent_bp_guid
+left join mio.public.mio03_bp_view mbv on mbv.bp_guid = mbm.bp_guid
+where (mbm.account_country in('MX')) and
+      (mbm.source_system_cde='SFDC') and
+      (mbm.record_type = 'Account') and
+      (mbm.mio_current_status = 1) and
+      (mba.mio_source_table_name='Account') and (mba.flag_is_deleted=false) and
+      (mbm.flag_is_deleted = 0) and
+      (mbv.bp_cid like 'NSAP%');
+
+map_BP:
+// Mapping
+load
+	Num(Right(unique_key, Len(unique_key)-5)) as bp_id,
+    Num(bp_id) as Sold
+Resident BP_Temp;
+
+Drop table BP_Temp;
+
+
+Exit Script;

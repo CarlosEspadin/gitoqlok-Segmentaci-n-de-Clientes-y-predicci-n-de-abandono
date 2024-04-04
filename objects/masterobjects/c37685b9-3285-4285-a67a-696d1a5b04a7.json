@@ -1,0 +1,785 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "c37685b9-3285-4285-a67a-696d1a5b04a7",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "Filtros (Churn)",
+      "description": "",
+      "tags": []
+    },
+    "qChildListDef": {
+      "qData": {
+        "info": "/qInfo"
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "visualization": "filterpane",
+    "masterVersion": 0.96
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "a5b7331d-f4f0-4ad1-88d6-33af6fb5e1e4",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "UDN_Num"
+            ],
+            "qFieldLabels": [
+              "UDN_Num"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "NBpwdHF"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "UDN",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "76109b94-654e-44ae-9aa2-e311eb107199",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "UDN_NameMX"
+            ],
+            "qFieldLabels": [
+              "UDN_NameMX"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "DgmPP"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Nombre UDN",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ea560014-41c5-459f-918a-1ef9e377d1a9",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Territorio"
+            ],
+            "qFieldLabels": [
+              "Territorio"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "SLnuPdM"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Territorio",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "7312315f-8db4-4740-a563-487c8846034a",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "TERRITORY_NAME"
+            ],
+            "qFieldLabels": [
+              "TERRITORY_NAME"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "gFkDbeg"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Nombre Territorio",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "a775349c-0f75-4aad-af44-98f8b61eb6d9",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "OrganizaciónVentas"
+            ],
+            "qFieldLabels": [
+              "OrganizaciónVentas"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "UUbuN"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Organización de Ventas",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "48c596cf-818f-41b5-b59b-3faca9d5e0ac",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Sold_to"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "DmXBT"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Sold to",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ed06713a-d5ef-4386-acb7-e8e18158b5ee",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Cliente_Descripción"
+            ],
+            "qFieldLabels": [
+              "Cliente_Descripción"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "UgjKK"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Clientes",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "5905def4-8f4a-4966-bedb-6f8fee1a5e72",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Estado"
+            ],
+            "qFieldLabels": [
+              "Estado"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "mvaFdk"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Estado",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "bb49b446-b77c-4348-8b06-60734cf9a20c",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Año_Registro"
+            ],
+            "qFieldLabels": [
+              "Año_Registro"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "LXVpX"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Año de Registro",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "56018e66-d400-4779-ae15-026c4620caef",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Temporada"
+            ],
+            "qFieldLabels": [
+              "Temporada"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "JTAdzg"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Temporada",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "c574631c-54bc-48c4-aaaf-1cb8cdb2dd6d",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Churn"
+            ],
+            "qFieldLabels": [
+              "Churn"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "gKXuq"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Churn",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "3a463723-d06f-4cf5-9621-0124ed7cfa5c",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Tienda_Inge"
+            ],
+            "qFieldLabels": [
+              "Tienda_Inge"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "wEfPb"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Tiendas el Inge",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "3b043a69-73a2-4f01-af30-f513114be45f",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Linea_Negocio"
+            ],
+            "qFieldLabels": [
+              "Linea_Negocio"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "mVyAKW"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "Linea_Negocio",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "b61304bd-b392-48d3-91eb-a76736e64212",
+          "qType": "listbox"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "OrganizaciónVentas"
+            ],
+            "qFieldLabels": [
+              "OrganizaciónVentas"
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "hjRcDpf"
+          },
+          "qFrequencyMode": "N",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "showTitles": true,
+          "title": "",
+          "subtitle": "",
+          "footnote": "",
+          "disableNavMenu": false,
+          "showDetails": false,
+          "showDetailsExpression": false,
+          "qOtherTotalSpec": {}
+        },
+        "showTitles": true,
+        "title": "OrganizaciónVentas",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "visualization": "listbox"
+      },
+      "qChildren": []
+    }
+  ]
+}

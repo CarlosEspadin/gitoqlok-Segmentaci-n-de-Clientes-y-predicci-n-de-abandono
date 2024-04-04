@@ -1,0 +1,139 @@
+///$tab Churn_Prediction
+LIB CONNECT TO 'Amazon_Redshift_MIO_Test';
+
+/* 1.0 Variable Section */
+
+    SET ErrorMode=0;
+    Let vPath = 'lib://SharedFolder'; // We create a varaible path to the changes of the server //
+    
+/*....................*/
+
+ClientesTemp:
+Mapping
+Load 
+	Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)) as Soldto,
+    [Customer.Customer_Medium_Description (MD)] as Cliente_Descripción
+FROM [lib://CustomerLAT/T_G_MRH_MD_Customer_FULL.QVD] (qvd)
+Where Match([Customer.Country (MD)] ,'MX');
+
+SoldTemp:
+Mapping
+Load 
+	Trim([Customer.Customer_Medium_Description (MD)]) as Cliente_Descripción,
+	Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)) as Soldto
+FROM [lib://CustomerLAT/T_G_MRH_MD_Customer_FULL.QVD] (qvd)
+Where Match([Customer.Country (MD)] ,'MX');
+
+RegistroTemp:
+Mapping
+Load 
+	Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)) as Soldto,
+	[Customer.Date on which record (MD)] as Fecha_Registro
+FROM [lib://CustomerLAT/T_G_MRH_MD_Customer_FULL.QVD] (qvd)
+Where Match([Customer.Country (MD)] ,'MX');
+
+EstadoTemp:
+Mapping
+Load 
+	Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)) as Soldto,
+	[Customer.Region_Medium_Description (MD)] as Estados
+FROM [lib://CustomerLAT/T_G_MRH_MD_Customer_FULL.QVD] (qvd)
+Where Match([Customer.Country (MD)] ,'MX');
+
+Prediction:
+LOAD
+	ID as bp_id,
+    if(y=1, 'True', 'False') as Churn,
+    y,
+    y^_lr as linear_regression,
+    proba_lr,
+    y^_knn as KNN,
+    proba_knn,
+    y^_rf as Random_Forest,
+    proba_rf,
+    y^_MLP as MLP,
+    proba_MLP,
+    IF(y^_last=1, 'True', 'False') as y^_Best,
+    y^_last as Best_Model,
+    proba_last AS proba_Best
+FROM [lib://SharedFolder/LANSOP/QVD/Churn/Churn_Prediction.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+
+
+Left Join(Prediction)
+LOAD
+    bp_id,
+//     Num(Num#(ApplyMap('SoldTemp', Trim(SoldTo), Null()))) as ID_Sold,
+	bp_id as Customer_id,
+    'Tipo' as Tipos,
+    Estado,
+    Territorio,
+    Date_Last,
+    FechaRegistro,
+    Bodegas as N_Ship_to,
+    Devolucion,
+    Volumen,
+    Consumo,
+    N_Material,
+    Frec,
+    Compro,
+    Temporada,
+    SO as OrganizaciónVentas,
+    Linea_Negocio,
+    Num(Material.Number) as NoProducto,
+    Tiempo_ultima_compra*0.03285421 as Tiempo_ultima_compra,
+    Anio_Registro as Año_Registro,
+    if(Cliente_Nuevo=1, 'True', 'False') AS Cliente_Nuevo,
+    Antiguedad*0.03285421 as Antiguedad,
+    Compra_unica,
+    Venta_2020,
+    Venta_2021,
+    Venta_2022,	
+    Venta_2023,
+	Crecimiento_21vs20,
+    Crecimiento_22vs21,	
+    Crecimiento_23vs22
+FROM [lib://SharedFolder/LANSOP/QVD/Churn/Customer_Churn1.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq)
+Where Exists(bp_id, bp_id);
+
+
+// LOAD
+//     "",
+//     bp_id,
+//     Estado,
+//     Territorio,
+//     FechaRegistro,
+//     Material.Number,
+//     Temporada,
+//     SO,
+//     Linea_Negocio,
+//     Date_Last,
+//     Bodegas,
+//     N_Material,
+//     Devolucion,
+//     Volumen,
+//     Consumo,
+//     Frec,
+//     Venta_2020,
+//     Venta_2021,
+//     Venta_2022,
+//     Venta_2023,
+//     Compro,
+//     Crecimiento_21vs20,
+//     Crecimiento_22vs21,
+//     Crecimiento_23vs22,
+//     Tiempo_ultima_compra,
+//     Anio_Registro,
+//     Cliente_Nuevo,
+//     Antiguedad,
+//     Compra_unica,
+//     Churn
+// FROM [lib://SharedFolder/LANSOP/QVD/Churn/Customer_Churn1.csv]
+// (txt, utf8, embedded labels, delimiter is ',', msq);
+
+
+
+
+// Exit Script;

@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "7cd039e1-8170-4522-bd9f-b18edbbf516b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vDimensiones",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Fecha de Creacion de Orden|Año y Mes de creacion de Orden|Año de creacion de Orden|Fecha de Creacion de Orden"
+}

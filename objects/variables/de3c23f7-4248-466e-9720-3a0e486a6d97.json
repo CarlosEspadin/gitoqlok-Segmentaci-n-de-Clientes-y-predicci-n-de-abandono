@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "de3c23f7-4248-466e-9720-3a0e486a6d97",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vEleccion",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "0",
+  "tags": []
+}
