@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "a3747de3-c0b8-4df2-90ca-bec913910e49",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vPercentil90",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Fractile(  Tiempo_ultima_compra, 0.9)",
+  "tags": []
+}

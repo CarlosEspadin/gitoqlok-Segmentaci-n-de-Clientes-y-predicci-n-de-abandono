@@ -1,0 +1,3201 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "ad786300-eda8-47a5-9f42-3a033c5e2296",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Churn",
+      "description": ""
+    },
+    "rank": 1.125,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/9f1c1bc6-2a66-4b14-bc1a-ae0820562613/_3a387221-7bc5-4317-b24d-8ea497635796.jpg"
+      }
+    },
+    "columns": 30,
+    "rows": 21,
+    "cells": [
+      {
+        "name": "dEeAftY",
+        "type": "VizlibAdvancedTextObject",
+        "col": 0,
+        "row": 0,
+        "colspan": 30,
+        "rowspan": 3,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 100,
+          "height": 14.285714285714285
+        }
+      },
+      {
+        "name": "UqMWwJ",
+        "type": "VizlibAdvancedTextObject",
+        "col": 0,
+        "row": 7,
+        "colspan": 16,
+        "rowspan": 6,
+        "bounds": {
+          "y": 33.33333333333333,
+          "x": 0,
+          "width": 53.333333333333336,
+          "height": 28.57142857142857
+        }
+      },
+      {
+        "name": "NKyPJ",
+        "type": "container",
+        "col": 16,
+        "row": 7,
+        "colspan": 14,
+        "rowspan": 11,
+        "bounds": {
+          "x": 53.333333333333336,
+          "y": 33.333333333333336,
+          "width": 46.666666666666664,
+          "height": 52.38095238095237
+        }
+      },
+      {
+        "name": "PkRBJJ",
+        "type": "histogram",
+        "col": 0,
+        "row": 3,
+        "colspan": 30,
+        "rowspan": 4,
+        "bounds": {
+          "x": 0,
+          "y": 14.285714285714285,
+          "width": 100,
+          "height": 19.047619047619047
+        }
+      },
+      {
+        "name": "FXUYP",
+        "type": "VizlibSheetMenu",
+        "col": 16,
+        "row": 19,
+        "colspan": 14,
+        "rowspan": 2,
+        "bounds": {
+          "x": 53.333333333333336,
+          "y": 90.47619047619047,
+          "width": 46.666666666666664,
+          "height": 9.523809523809522
+        }
+      },
+      {
+        "name": "vsQW",
+        "type": "piechart",
+        "col": 0,
+        "row": 13,
+        "colspan": 16,
+        "rowspan": 5,
+        "bounds": {
+          "y": 61.904761904761905,
+          "x": 0,
+          "width": 53.333333333333336,
+          "height": 23.809523809523807
+        }
+      },
+      {
+        "name": "JwAqqFn",
+        "type": "action-button",
+        "col": 0,
+        "row": 18,
+        "colspan": 30,
+        "rowspan": 1,
+        "bounds": {
+          "y": 85.71428571428571,
+          "x": 0,
+          "width": 100,
+          "height": 4.761904761904762
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "medium",
+    "layoutOptions": {
+      "mobileLayout": "LIST",
+      "extendable": true,
+      "sheetMode": "RESPONSIVE"
+    },
+    "gridMode": "edit",
+    "height": 140,
+    "customRowBase": 24
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "dEeAftY",
+          "qType": "VizlibAdvancedTextObject"
+        },
+        "qMetaDef": {},
+        "text": "<p style=\"text-align: center;\"><span class=\"ql-size-large\">¿Qué es Churn Flag?</span></p>",
+        "props": {
+          "iconpicker": "",
+          "icons": {
+            "showmaximize": false,
+            "showsnapshot": false
+          },
+          "about": ""
+        },
+        "fontcolor": "#ffffff",
+        "fontsize": 40,
+        "fontsizeslider": 40,
+        "fontfamily": "\"QlikView Sans\", sans-serif",
+        "customfontfamily": "<Type in your Font Name>",
+        "fontstyle": "bold,italic",
+        "dropshadow": false,
+        "show": "always",
+        "showHideCondition": "",
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "horizontalalignment": "left",
+        "verticalalignment": "middle",
+        "borderstyle": "none",
+        "borderwidth": 1,
+        "borderselector": "",
+        "bordercolor": "#000000",
+        "radius": 0,
+        "topleftradius": 0,
+        "toprightradius": 0,
+        "bottomleftradius": 0,
+        "bottomrightradius": 0,
+        "bgtype": "color",
+        "backgroundcolor": "",
+        "bgimage": "",
+        "imagestretch": "nostretch",
+        "backgroundtransparency": 0,
+        "iframeurl": "http://",
+        "extStyleMode": true,
+        "extBackgroundColor": "transparent",
+        "extBackgroundtransparency": 0,
+        "ttp": {
+          "enabled": false,
+          "tooltipMode": "hover",
+          "showArrow": true,
+          "showQuestionMark": true,
+          "advancedMode": false,
+          "content": "This is my <u>Vizlib</u> <b>Tooltip</b>!",
+          "contentColorPickerExpr": "#FFFFFF",
+          "contentBackgroundExpr": "#7B7A78",
+          "showTitle": false,
+          "titleContent": "My title",
+          "titleColorPickerExpr": "#FFFFFF",
+          "titleBackgroundExpr": "#000000",
+          "size": "small",
+          "typeWidth": "fixed",
+          "width": "200",
+          "maxWidth": "30%",
+          "position": "bottom",
+          "offsetX": "0",
+          "offsetY": "0",
+          "interactiveTooltip": false,
+          "showOnLoad": false,
+          "speed": "150",
+          "delay": "100",
+          "hideDelay": "100",
+          "enableAnimations": false,
+          "animationIn": "tada",
+          "animationOut": "fadeOut",
+          "contentColor": "#FFFFFF",
+          "contentBackground": "#7B7A78"
+        },
+        "smartEditor": true,
+        "animateNumbers": false,
+        "useCommaAsDecimals": false,
+        "animateNumDuration": "500",
+        "scroll": {
+          "usescroll": true,
+          "y": true,
+          "x": true
+        },
+        "wraptext": true,
+        "action": [],
+        "visualization": "VizlibAdvancedTextObject",
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "showTitles": false,
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "vMeta": {
+          "creationVersion": "1.7.14"
+        },
+        "version": "1.7.12",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "text",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": " Vizlib Advanced Text Object v1.7.14",
+          "description": "Classic QlikView text object with extended formatting options, HTML support, actions, copy text to clipboard and tooltip features.",
+          "template": "VizlibAdvancedTextObject",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "preview": "VizlibAdvancedTextObject.png",
+          "email": "support@vizlib.com",
+          "version": "1.7.14",
+          "bundle": {
+            "id": "vizlib-bundle",
+            "name": "Vizlib Library",
+            "description": "Vizlib is an advanced extension library for Qlik Sense offering a better way to communicate data by leveraging vizualisations, tables and control components. ........................................................... www.vizlib.com"
+          },
+          "author": "Vizlib Ltd.",
+          "homepage": "Vizlib.com",
+          "keywords": "qlik-sense, visualization",
+          "license": "2017 © Vizlib Ltd. - All rights reserved.",
+          "tc": "http://www.vizlib.com/termsandconditions",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=2.2.4"
+          },
+          "src": "/extensions/VizlibAdvancedTextObject/VizlibAdvancedTextObject.png",
+          "previewIconURL": "https://qst.syngenta.com/extensions/VizlibAdvancedTextObject/VizlibAdvancedTextObject.png"
+        },
+        "fontColorPicker": {
+          "index": -1,
+          "color": "#ffffff"
+        },
+        "BGColorPicker": {
+          "color": "",
+          "index": -1
+        },
+        "extColorPicker": {
+          "color": "#FFFFFF",
+          "index": -1
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "UqMWwJ",
+          "qType": "VizlibAdvancedTextObject"
+        },
+        "qMetaDef": {},
+        "text": "<p style=\"text-align: justify;\">El Churn es una métrica que se encarga de medir la cantidad de clientes que han dejado de seguir a una empresa. Esto significa que no consumen más los productos o servicios que ofrece.  En términos más técnicos, a este indicador se le denomina churn rate o tasa de cancelación.</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\">Así bien Churn Flag es solamente un indicador calculado, basado en el tiempo transcurrido desde la última compra, de tal forma que:</p><p style=\"text-align: justify;\"><br></p><ul><li style=\"text-align: justify;\">Churn_Flag = 1 si compro solo una vez y el tiempo desde la última compra es mayor a 29 meses</li><li style=\"text-align: justify;\">Churn_Flag = 0 en caso el caso contrario.</li></ul><p style=\"text-align: justify;\"><br></p>",
+        "props": {
+          "iconpicker": "",
+          "icons": {
+            "showmaximize": false,
+            "showsnapshot": false
+          },
+          "about": ""
+        },
+        "fontcolor": "#ffffff",
+        "fontsize": 15,
+        "fontsizeslider": 15,
+        "fontfamily": "\"QlikView Sans\", sans-serif",
+        "customfontfamily": "<Type in your Font Name>",
+        "fontstyle": "",
+        "dropshadow": false,
+        "show": "always",
+        "showHideCondition": "",
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "horizontalalignment": "left",
+        "verticalalignment": "middle",
+        "borderstyle": "none",
+        "borderwidth": 1,
+        "borderselector": "",
+        "bordercolor": "#000000",
+        "radius": 0,
+        "topleftradius": 0,
+        "toprightradius": 0,
+        "bottomleftradius": 0,
+        "bottomrightradius": 0,
+        "bgtype": "color",
+        "backgroundcolor": "",
+        "bgimage": "",
+        "imagestretch": "nostretch",
+        "backgroundtransparency": 0,
+        "iframeurl": "http://",
+        "extStyleMode": true,
+        "extBackgroundColor": "transparent",
+        "extBackgroundtransparency": 0,
+        "ttp": {
+          "enabled": false,
+          "tooltipMode": "hover",
+          "showArrow": true,
+          "showQuestionMark": true,
+          "advancedMode": false,
+          "content": "This is my <u>Vizlib</u> <b>Tooltip</b>!",
+          "contentColorPickerExpr": "#FFFFFF",
+          "contentBackgroundExpr": "#7B7A78",
+          "showTitle": false,
+          "titleContent": "My title",
+          "titleColorPickerExpr": "#FFFFFF",
+          "titleBackgroundExpr": "#000000",
+          "size": "small",
+          "typeWidth": "fixed",
+          "width": "200",
+          "maxWidth": "30%",
+          "position": "bottom",
+          "offsetX": "0",
+          "offsetY": "0",
+          "interactiveTooltip": false,
+          "showOnLoad": false,
+          "speed": "150",
+          "delay": "100",
+          "hideDelay": "100",
+          "enableAnimations": false,
+          "animationIn": "tada",
+          "animationOut": "fadeOut",
+          "contentColor": "#FFFFFF",
+          "contentBackground": "#7B7A78"
+        },
+        "smartEditor": true,
+        "animateNumbers": false,
+        "useCommaAsDecimals": false,
+        "animateNumDuration": "500",
+        "scroll": {
+          "usescroll": true,
+          "y": true,
+          "x": true
+        },
+        "wraptext": true,
+        "action": [],
+        "visualization": "VizlibAdvancedTextObject",
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "showTitles": false,
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "vMeta": {
+          "creationVersion": "1.7.14"
+        },
+        "version": "1.7.12",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "text",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": " Vizlib Advanced Text Object v1.7.14",
+          "description": "Classic QlikView text object with extended formatting options, HTML support, actions, copy text to clipboard and tooltip features.",
+          "template": "VizlibAdvancedTextObject",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "preview": "VizlibAdvancedTextObject.png",
+          "email": "support@vizlib.com",
+          "version": "1.7.14",
+          "bundle": {
+            "id": "vizlib-bundle",
+            "name": "Vizlib Library",
+            "description": "Vizlib is an advanced extension library for Qlik Sense offering a better way to communicate data by leveraging vizualisations, tables and control components. ........................................................... www.vizlib.com"
+          },
+          "author": "Vizlib Ltd.",
+          "homepage": "Vizlib.com",
+          "keywords": "qlik-sense, visualization",
+          "license": "2017 © Vizlib Ltd. - All rights reserved.",
+          "tc": "http://www.vizlib.com/termsandconditions",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=2.2.4"
+          },
+          "src": "/extensions/VizlibAdvancedTextObject/VizlibAdvancedTextObject.png",
+          "previewIconURL": "https://qst.syngenta.com/extensions/VizlibAdvancedTextObject/VizlibAdvancedTextObject.png"
+        },
+        "fontColorPicker": {
+          "index": -1,
+          "color": "#ffffff"
+        },
+        "containerChildId": "EfajgmF",
+        "BGColorPicker": {
+          "color": "",
+          "index": -1
+        },
+        "extColorPicker": {
+          "color": "#FFFFFF",
+          "index": -1
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "NKyPJ",
+          "qType": "container"
+        },
+        "qMetaDef": {},
+        "children": [
+          {
+            "refId": "JeZDp",
+            "label": "Análisis",
+            "isMaster": false,
+            "cId": "NyVJ"
+          }
+        ],
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "borders": "auto",
+        "showTabs": true,
+        "useDropdown": true,
+        "useScrollButton": true,
+        "showIcons": false,
+        "activeTab": "",
+        "defaultTab": "",
+        "visualization": "container",
+        "qChildListDef": {
+          "qData": {
+            "visualization": "/visualization",
+            "containerChildId": "/containerChildId",
+            "qExtendsId": "/qExtendsId",
+            "title": "/title",
+            "showCondition": "/showCondition"
+          }
+        },
+        "supportRefresh": false,
+        "hasExternalChildren": false
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "9773f38b-8dea-47d8-a3b1-b8ef5941f60e",
+              "qType": "table"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Cliente_Descripción"
+                    ],
+                    "qFieldLabels": [
+                      "Cliente"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "qYJjwAp",
+                    "othersLabel": "Otros",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": "",
+                      "imageSize": "fitHeight",
+                      "imagePosition": "topCenter"
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Otros"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Compra_unica"
+                    ],
+                    "qFieldLabels": [
+                      "¿Compro solo una vez?"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "JwmfQ",
+                    "othersLabel": "Otros",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": "",
+                      "imageSize": "fitHeight",
+                      "imagePosition": "topCenter"
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Otros"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Churn"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qReverseSort": true,
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "ecAeEdQ",
+                    "othersLabel": "Otros",
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "urlPosition": "dimension",
+                      "urlLabel": "",
+                      "linkUrl": "",
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": "",
+                      "imageSize": "fitHeight",
+                      "imagePosition": "topCenter"
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Otros"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "If(Churn='True', '#Ff0000','#00FF00')",
+                      "qAttribute": true,
+                      "id": "cellBackgroundColor"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qLabel": "Tiempo desde la ultima compra (Meses)",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum(Tiempo_ultima_compra)",
+                    "qNumFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "#,##0.00",
+                      "qDec": ".",
+                      "qThou": ","
+                    },
+                    "qAggrFunc": "Expr",
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "TtUtyD",
+                    "numFormatFromTemplate": true,
+                    "textAlign": {
+                      "auto": true,
+                      "align": "left"
+                    },
+                    "representation": {
+                      "type": "text",
+                      "indicator": {
+                        "showTextValues": true,
+                        "applySegmentColors": false,
+                        "position": "right"
+                      },
+                      "miniChart": {
+                        "type": "sparkline",
+                        "colors": {
+                          "main": {
+                            "index": 6
+                          },
+                          "max": {
+                            "index": 0,
+                            "color": "none"
+                          },
+                          "min": {
+                            "index": 0,
+                            "color": "none"
+                          },
+                          "first": {
+                            "index": 0,
+                            "color": "none"
+                          },
+                          "last": {
+                            "index": 0,
+                            "color": "none"
+                          },
+                          "positive": {
+                            "index": 6
+                          },
+                          "negative": {
+                            "index": 10,
+                            "color": "#f93f17"
+                          }
+                        },
+                        "showDots": true,
+                        "yAxis": {
+                          "scale": "local",
+                          "position": "auto"
+                        }
+                      },
+                      "imageSetting": "label",
+                      "imageLabel": "",
+                      "imageUrl": "",
+                      "imageSize": "fitHeight",
+                      "imagePosition": "topCenter"
+                    },
+                    "conditionalColoring": {
+                      "segments": {
+                        "limits": [],
+                        "paletteColors": [
+                          {
+                            "index": 6,
+                            "icon": "dot"
+                          }
+                        ]
+                      }
+                    },
+                    "isCustomFormatted": false
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qSuppressOther": true,
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": [],
+                    "qNullSuppression": true
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                2,
+                0,
+                1,
+                3
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [
+                0,
+                1,
+                3,
+                2
+              ],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "columnOrder": [
+                0,
+                1,
+                3,
+                2
+              ],
+              "columnWidths": [
+                219,
+                78,
+                77,
+                124
+              ],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              }
+            },
+            "script": "",
+            "search": {
+              "sorting": "auto"
+            },
+            "showTitles": false,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "components": [
+              {
+                "key": "general",
+                "title": {
+                  "main": {
+                    "color": {
+                      "index": -1,
+                      "color": "#ffffff"
+                    }
+                  }
+                }
+              },
+              {
+                "key": "theme",
+                "header": {
+                  "fontColor": {
+                    "index": -1,
+                    "color": "#ffffff"
+                  },
+                  "fontSize": 14
+                },
+                "content": {
+                  "fontColor": {
+                    "index": -1,
+                    "color": "#ffffff"
+                  },
+                  "hoverEffect": true,
+                  "hoverColor": {
+                    "index": -1,
+                    "color": "#3fe3ff"
+                  },
+                  "hoverFontColor": {
+                    "index": 2,
+                    "color": "#36404a"
+                  }
+                }
+              }
+            ],
+            "totals": {
+              "show": true,
+              "position": "noTotals",
+              "label": "Totales"
+            },
+            "scrolling": {
+              "horizontal": true,
+              "keepFirstColumnInView": true,
+              "keepFirstColumnInViewTouch": false
+            },
+            "multiline": {
+              "wrapTextInHeaders": true,
+              "wrapTextInCells": true
+            },
+            "visualization": "table",
+            "containerChildId": "JeZDp"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "PkRBJJ",
+          "qType": "histogram"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Tiempo_ultima_compra"
+                ],
+                "qFieldLabels": [
+                  "Tiempo transcurrido desde la ultima compra"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "KZqUVj",
+                "othersLabel": "Otros"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qSuppressOther": true,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Otros"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          },
+          "isHCEnabled": false
+        },
+        "script": "",
+        "bins": {
+          "auto": true,
+          "binMode": "maxCount",
+          "binCount": "",
+          "binSize": 10,
+          "offset": 0,
+          "countDistinct": false
+        },
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "Distribución del tiempo desde la ultima compra",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "gridlines": {
+          "auto": true,
+          "spacing": 2
+        },
+        "dataPoint": {
+          "showLabels": true
+        },
+        "color": {
+          "bar": {
+            "paletteColor": {
+              "index": 6,
+              "color": "#4477aa"
+            }
+          }
+        },
+        "measureAxis": {
+          "show": "all",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10,
+          "label": ""
+        },
+        "dimensionAxis": {
+          "show": "all",
+          "label": "auto",
+          "dock": "near"
+        },
+        "visualization": "histogram",
+        "version": "0.31.4",
+        "sorting": {
+          "autoSort": true
+        },
+        "qUndoExclude": {
+          "hashCode": -587995734,
+          "box": {
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=Class(aggr([Tiempo_ultima_compra],[Tiempo_ultima_compra]),3.5,'x',0.5)"
+                    ],
+                    "qFieldLabels": [
+                      "Tiempo transcurrido desde la ultima compra"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {},
+                    "qOtherLimit": {},
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {},
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qLabel": "Frecuencia",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Count([Tiempo_ultima_compra])",
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": []
+                  },
+                  "qSortBy": {
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qAlwaysFullyExpanded": true,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              },
+              "isHCEnabled": false
+            }
+          },
+          "bins": {
+            "binSize": 3.5,
+            "offset": 0.5,
+            "binCount": {
+              "qValueExpression": {
+                "qExpr": "=Ceil(Log10(Count([Tiempo_ultima_compra])) / Log10(2)) + 1"
+              }
+            }
+          }
+        },
+        "components": [
+          {
+            "key": "general",
+            "title": {
+              "main": {
+                "color": {
+                  "index": -1,
+                  "color": "#ffffff"
+                }
+              },
+              "footer": {}
+            },
+            "bgColor": {}
+          }
+        ]
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "JwAqqFn",
+          "qType": "action-button"
+        },
+        "qMetaDef": {},
+        "actions": [
+          {
+            "actionLabel": "",
+            "actionType": "",
+            "bookmark": "",
+            "field": "",
+            "variable": "",
+            "showSystemVariables": false,
+            "softLock": false,
+            "value": "",
+            "partial": false,
+            "cId": "FUDsy"
+          }
+        ],
+        "navigation": {
+          "action": "none",
+          "appId": "",
+          "sheet": "2cc9a7d0-cd6a-41e6-a198-cabea23a350b",
+          "story": "",
+          "websiteUrl": "",
+          "sameWindow": false,
+          "odagLink": ""
+        },
+        "useEnabledCondition": false,
+        "enabledCondition": 1,
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "style": {
+          "label": "",
+          "font": {
+            "size": 1,
+            "useColorExpression": false,
+            "color": {
+              "index": -1,
+              "color": "#fcfeff"
+            },
+            "colorExpression": "",
+            "style": {
+              "bold": false,
+              "italic": false,
+              "underline": false
+            },
+            "align": "left"
+          },
+          "background": {
+            "useColorExpression": false,
+            "color": {
+              "index": 1,
+              "color": "#323b44"
+            },
+            "colorExpression": "",
+            "useImage": true,
+            "size": "alwaysFit",
+            "position": "centerCenter",
+            "url": {
+              "qStaticContentUrlDef": {
+                "qUrl": "/appcontent/94b592f3-9f7b-4c6c-b9eb-16aaece49f84/Syngenta blanco.png"
+              }
+            }
+          },
+          "border": {
+            "useBorder": true,
+            "radius": 0.33,
+            "width": 0.24,
+            "useColorExpression": false,
+            "color": {
+              "index": -1,
+              "color": "#fcfeff"
+            },
+            "colorExpression": ""
+          },
+          "icon": {
+            "useIcon": false,
+            "iconType": "triangle-bottom",
+            "position": "left"
+          }
+        },
+        "visualization": "action-button",
+        "version": "1.27.0"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "vsQW",
+          "qType": "piechart"
+        },
+        "qExtendsId": "42df9683-290b-4667-a551-ec709deae82f",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "FXUYP",
+          "qType": "VizlibSheetMenu"
+        },
+        "qMetaDef": {},
+        "search": "",
+        "isDefaultTemplateApplied": true,
+        "topMenu": {
+          "show": true,
+          "use": true,
+          "elements": [
+            {
+              "sheetId": "481c4c9d-3a01-4075-a8d6-cda31d168a32",
+              "elementType": "Sheet",
+              "displayName": "Introducción",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 4,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "12da0cfb-5900-4e21-9c22-4b7fc203a993",
+              "elementType": "Sheet",
+              "displayName": "Facturación",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 5,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "48895209-d084-4571-8396-6b2a6f001bf9",
+              "elementType": "Sheet",
+              "displayName": "Background",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 6,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "ad786300-eda8-47a5-9f42-3a033c5e2296",
+              "elementType": "Sheet",
+              "displayName": "Churn",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 8,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "15e2b8df-ac73-4602-bb2b-a3d207823775",
+              "elementType": "Sheet",
+              "displayName": "Resultados",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 0,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            }
+          ]
+        },
+        "logo": {
+          "show": true,
+          "useMedia": true,
+          "image": "/appcontent/9f1c1bc6-2a66-4b14-bc1a-ae0820562613/Syngenta_Logo.svg.png",
+          "url": "",
+          "stretchMode": "scale",
+          "width": 400,
+          "height": 26,
+          "opacity": 1,
+          "position": {
+            "top": 8,
+            "left": 0
+          },
+          "actions": []
+        },
+        "showTitle": false,
+        "customTitle": "current",
+        "appTitle": "Title",
+        "menu": {
+          "titleFontColorPicker": {
+            "color": "#323232"
+          },
+          "titleFontColor": "#323232",
+          "titleFontSizeSlider": 20,
+          "titleFontSize": 20,
+          "topBarHeight": 42,
+          "backgroundColorPicker": {
+            "color": "#ffffff",
+            "index": -1
+          },
+          "backgroundColor": "#ffffff",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "enableResponsiveness": false,
+          "breadcrumbsElements": true,
+          "breadcrumbSeparator": "triangle",
+          "breadcrumbSize": "medium",
+          "breadcrumbFontSize": 14,
+          "breadcrumbFontSizeSlider": 13,
+          "breadcrumbFontColorPicker": {
+            "color": "#323232"
+          },
+          "breadcrumbFontColor": "#323232",
+          "breadcrumbActiveFontColorPicker": {
+            "color": "#323232",
+            "index": -1
+          },
+          "breadcrumbActiveFontColor": "#323232",
+          "breadcrumbBackgroundColorPicker": {
+            "color": "#FFFFFF",
+            "index": -1
+          },
+          "breadcrumbBackgroundColor": "#FFFFFF",
+          "breadcrumbActiveBackgroundColorPicker": {
+            "color": "#ffffff",
+            "index": -1
+          },
+          "breadcrumbActiveBackgroundColor": "#ffffff",
+          "breadcrumbBorderEnabled": false,
+          "breadcrumbBorderColorPicker": {
+            "color": "#323232",
+            "index": -1
+          },
+          "breadcrumbBorderColor": "#323232",
+          "breadcrumbBorderStyle": "solid",
+          "breadcrumbBorderWidth": 0,
+          "breadcrumbBorderRadiusSlider": 0,
+          "breadcrumbBorderRadius": 0,
+          "breadcrumbWidthSlider": 300,
+          "breadcrumbWidth": 300,
+          "showTitleInMobile": false,
+          "customMobileHeight": false,
+          "customMobileMenuButtons": false,
+          "customExtensionHeightPortrait": 300,
+          "customExtensionWidthLandscape": 300
+        },
+        "topMenuMaker": false,
+        "responsiveElements": "both",
+        "newNavigationIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--menu",
+              "icon": "fa-chevron-circle-left",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "navigationIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--compass",
+              "icon": "fa-caret-square-o-down",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "toolbarIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--settings",
+              "icon": "fa-server",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "saveIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "",
+              "icon": "fa-save",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Save",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "storiesIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--slide-show",
+              "icon": "fa-film",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "editSheetMenuIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--reload",
+              "icon": "fa-crosshairs",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "bookmarksIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--bookmark",
+              "icon": "fa-bookmark",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "editIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--edit",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Edit",
+              "editModeText": "Done",
+              "editModeColorPicker": {
+                "color": "#282828",
+                "index": -1
+              },
+              "editModeColor": "#282828",
+              "editModeFontColorPicker": {
+                "color": "#ffffff"
+              },
+              "editModeFontColor": "#ffffff",
+              "colorPicker": {
+                "color": "#ffffff"
+              },
+              "color": "#ffffff"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "sheetsIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--sheet",
+              "icon": "fa-list-alt",
+              "horizontalAlignment": "center",
+              "customTitle": false,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "previousSheetIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--previous",
+              "icon": "fa-chevron-left",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "nextSheetIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--next",
+              "icon": "fa-chevron-right",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "application": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--more",
+              "icon": "fa-ellipsis-h",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "duplicateIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--copy",
+              "icon": "fa-copy",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Duplicate",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "sideMenuIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--menu",
+              "icon": "fa-filter",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Filtro",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "customButtonsArray": [],
+        "customText": {
+          "enable": false,
+          "text": "Type text...",
+          "fontColorPicker": {
+            "color": "#323232"
+          },
+          "fontColor": "#323232",
+          "fontSizeSlider": 20,
+          "fontSize": 20
+        },
+        "selectionMenu": {
+          "enable": true,
+          "leftPadding": 0,
+          "sticked": false
+        },
+        "stepBack": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--selections-back",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "stepForward": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--selections-forward",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "clearSelection": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--clear-selections",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "navSearch": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--search",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "subToolbar": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--selections-tool",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "insights": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--analyze",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "sideMenu": {
+          "show": true,
+          "sidePlacement": "selectionPanel",
+          "sidePosition": "right",
+          "elements": [
+            {
+              "elementType": "MasterItem",
+              "displayName": "Master Item",
+              "isIconEnabled": false,
+              "icon": "",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                }
+              },
+              "inherit": true,
+              "condition": "1",
+              "height": 564,
+              "masterItemId": "c37685b9-3285-4285-a67a-696d1a5b04a7",
+              "level": 1,
+              "cId": "JVveaRj",
+              "vzbActionsOnSheetExit": [],
+              "autoHeightMode": false,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              }
+            }
+          ],
+          "sideMenuWidth": 300,
+          "sideMenuFontSize": 13,
+          "sideMenuPosition": "right",
+          "sideMenuShowAlways": false,
+          "sideMenuCloseSetting": "manual",
+          "backgroundColorPicker": {
+            "color": "#f8f8f8"
+          },
+          "backgroundColor": "#f8f8f8",
+          "Sheet": {
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "",
+            "fontSize": 14,
+            "fontSizeSlider": 14,
+            "fontStyle": "bold,normal,none",
+            "activeMode": "underline",
+            "fontColorPicker": {
+              "color": "#595959"
+            },
+            "fontColor": "#595959",
+            "backgroundColorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "backgroundColor": "#ffffff",
+            "enableBorder": false,
+            "borderActive": {
+              "borderSelector": ""
+            },
+            "borderStyle": "solid",
+            "borderColorPicker": {
+              "color": "#cccccc"
+            },
+            "borderColor": "#cccccc",
+            "borderWidthSlider": 1,
+            "borderWidth": 1,
+            "borderRadiusSlider": 0,
+            "borderRadius": 0,
+            "borderRadiusTopSlider": 0,
+            "borderRadiusTop": 0,
+            "borderRadiusRightSlider": 0,
+            "borderRadiusRight": 0,
+            "borderRadiusBottomSlider": 0,
+            "borderRadiusBottom": 0,
+            "borderRadiusLeftSlider": 0,
+            "borderRadiusLeft": 0
+          },
+          "Text": {
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "",
+            "fontSize": 14,
+            "fontSizeSlider": 14,
+            "fontStyle": "bold,normal,none",
+            "activeMode": "underline",
+            "fontColorPicker": {
+              "color": "#595959"
+            },
+            "fontColor": "#595959",
+            "backgroundColorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "backgroundColor": "#ffffff",
+            "enableBorder": false,
+            "borderActive": {
+              "borderSelector": ""
+            },
+            "borderStyle": "solid",
+            "borderColorPicker": {
+              "color": "#cccccc"
+            },
+            "borderColor": "#cccccc",
+            "borderWidthSlider": 1,
+            "borderWidth": 1,
+            "borderRadiusSlider": 0,
+            "borderRadius": 0,
+            "borderRadiusTopSlider": 0,
+            "borderRadiusTop": 0,
+            "borderRadiusRightSlider": 0,
+            "borderRadiusRight": 0,
+            "borderRadiusBottomSlider": 0,
+            "borderRadiusBottom": 0,
+            "borderRadiusLeftSlider": 0,
+            "borderRadiusLeft": 0
+          },
+          "Group": {
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "",
+            "fontSize": 14,
+            "fontSizeSlider": 14,
+            "fontStyle": "bold,normal,none",
+            "activeMode": "underline",
+            "fontColorPicker": {
+              "color": "#595959"
+            },
+            "fontColor": "#595959",
+            "backgroundColorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "backgroundColor": "#ffffff",
+            "enableBorder": false,
+            "borderActive": {
+              "borderSelector": ""
+            },
+            "borderStyle": "solid",
+            "borderColorPicker": {
+              "color": "#cccccc"
+            },
+            "borderColor": "#cccccc",
+            "borderWidthSlider": 1,
+            "borderWidth": 1,
+            "borderRadiusSlider": 0,
+            "borderRadius": 0,
+            "borderRadiusTopSlider": 0,
+            "borderRadiusTop": 0,
+            "borderRadiusRightSlider": 0,
+            "borderRadiusRight": 0,
+            "borderRadiusBottomSlider": 0,
+            "borderRadiusBottom": 0,
+            "borderRadiusLeftSlider": 0,
+            "borderRadiusLeft": 0
+          },
+          "Line": {
+            "backgroundColorPicker": {
+              "color": "#f8f8f8"
+            },
+            "backgroundColor": "#f8f8f8",
+            "lineColorPicker": {
+              "color": "#ccc"
+            },
+            "lineColor": "#ccc",
+            "thickness": 1,
+            "style": "solid"
+          },
+          "MasterItem": {
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff"
+          },
+          "masterItemOverflow": "auto"
+        },
+        "menuMaker": false,
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "sheetMenuContextVersion": "3.0",
+        "globalStyles": {
+          "tabs": {
+            "mode": 1
+          },
+          "buttons": {
+            "spacingWidth": 8,
+            "borderEnabled": false,
+            "borderColor": "#b3b3b3",
+            "borderStyle": "solid",
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColorPicker": {
+              "color": "#b3b3b3",
+              "index": -1
+            }
+          },
+          "buttonStates": {
+            "default": {
+              "color": "#323232",
+              "backgroundColor": "#FFFFFF",
+              "colorPicker": {
+                "color": "#323232",
+                "index": -1
+              },
+              "backgroundColorPicker": {
+                "color": "#FFFFFF",
+                "index": -1
+              }
+            },
+            "hover": {
+              "color": "#323232",
+              "backgroundColor": "#b0afae",
+              "colorPicker": {
+                "color": "#323232",
+                "index": -1
+              },
+              "backgroundColorPicker": {
+                "color": "#b0afae",
+                "index": -1
+              }
+            },
+            "active": {
+              "activeMode": "underline",
+              "color": "#323232",
+              "backgroundColor": "#ffffff",
+              "colorPicker": {
+                "color": "#323232",
+                "index": -1
+              },
+              "backgroundColorPicker": {
+                "color": "#ffffff",
+                "index": -1
+              }
+            }
+          }
+        },
+        "globalStylesMode": 1,
+        "sheets": {
+          "fontFamily": "\"QlikView Sans\", sans-serif",
+          "customFontFamily": "",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontStyle": "bold,normal,none",
+          "activeMode": "underline",
+          "fontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "fontColor": "",
+          "backgroundColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "backgroundColor": "",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0,
+          "borderRadiusTopSlider": 0,
+          "borderRadiusTop": 0,
+          "borderRadiusRightSlider": 0,
+          "borderRadiusRight": 0,
+          "borderRadiusBottomSlider": 0,
+          "borderRadiusBottom": 0,
+          "borderRadiusLeftSlider": 0,
+          "borderRadiusLeft": 0
+        },
+        "activeSheet": {
+          "fontFamily": "\"QlikView Sans\", sans-serif",
+          "customFontFamily": "",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontStyle": "bold,normal,none",
+          "activeMode": "background",
+          "fontColorPicker": {
+            "color": "#ffffff",
+            "index": -1
+          },
+          "fontColor": "#ffffff",
+          "backgroundColorPicker": {
+            "color": "#7b7a78",
+            "index": -1
+          },
+          "backgroundColor": "#7b7a78",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0,
+          "borderRadiusTopSlider": 0,
+          "borderRadiusTop": 0,
+          "borderRadiusRightSlider": 0,
+          "borderRadiusRight": 0,
+          "borderRadiusBottomSlider": 0,
+          "borderRadiusBottom": 0,
+          "borderRadiusLeftSlider": 0,
+          "borderRadiusLeft": 0
+        },
+        "hover": {
+          "fontFamily": "\"QlikView Sans\", sans-serif",
+          "customFontFamily": "",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontStyle": "bold,normal,none",
+          "activeMode": "underline",
+          "fontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "fontColor": "",
+          "backgroundColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "backgroundColor": "",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0,
+          "borderRadiusTopSlider": 0,
+          "borderRadiusTop": 0,
+          "borderRadiusRightSlider": 0,
+          "borderRadiusRight": 0,
+          "borderRadiusBottomSlider": 0,
+          "borderRadiusBottom": 0,
+          "borderRadiusLeftSlider": 0,
+          "borderRadiusLeft": 0
+        },
+        "buttons": {
+          "buttonSize": "large",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "fontColor": "",
+          "hoverFontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "hoverFontColor": "",
+          "backgroundColorPicker": {
+            "color": ""
+          },
+          "backgroundColor": "",
+          "hoverBackgroundColorPicker": {
+            "color": ""
+          },
+          "hoverBackgroundColor": "",
+          "enableBorder": false,
+          "borderselector": "",
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "borderColor": "",
+          "borderWidth": 0,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0
+        },
+        "customSelection": {
+          "show": false,
+          "selectedColorPicker": {
+            "color": "#3C43B7"
+          },
+          "selectedColor": "#3C43B7",
+          "alternativeColorPicker": {
+            "color": "#dddddd"
+          },
+          "alternativeColor": "#dddddd",
+          "availableColorPicker": {
+            "color": "#ffffff"
+          },
+          "availableColor": "#ffffff",
+          "excludedColorPicker": {
+            "color": "#a9a9a9"
+          },
+          "excludedColor": "#a9a9a9"
+        },
+        "mobileMenu": 0,
+        "vzbActions": [],
+        "isExtensionShowed": true,
+        "show": {
+          "sheetName": false,
+          "sheetMenu": true,
+          "baseSheets": true,
+          "navButtons": true,
+          "customStyles": ""
+        },
+        "nativeSheetTitle": "current",
+        "swipeDesktop": false,
+        "props": {
+          "about": ""
+        },
+        "visualization": "VizlibSheetMenu",
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "version": "3.5.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "menu",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": " Vizlib Sheet Menu v3.5.1",
+          "description": "The Vizlib Sheet Menu is a highly-customisable and easy-to-use extension for Qlik Sense that allows you to achieve Mashup-like style in just a few clicks, without any custom development. It mirrors the design of navigation bars in web apps, allowing you to group and neatly organise charts for quick and easy access.",
+          "template": "VizlibSheetMenu",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "preview": "VizlibSheetMenu.png",
+          "version": "3.5.1",
+          "bundle": {
+            "id": "vizlib-bundle",
+            "name": "Vizlib Library",
+            "description": "Vizlib is an advanced extension library for Qlik Sense offering a better way to communicate data by leveraging vizualisations, tables and control components. ........................................................... www.vizlib.com"
+          },
+          "author": "Vizlib ltd.",
+          "homepage": "Vizlib.com",
+          "email": "support@vizlib.com",
+          "keywords": "qlik-sense, visualization",
+          "license": "2018 © Vizlib Ltd. - All rights reserved.",
+          "tc": "http://www.vizlib.com/termsandconditions/",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=3.0.x"
+          },
+          "previewIconURL": "https://qst.syngenta.com/extensions/VizlibSheetMenu/VizlibSheetMenu.png"
+        },
+        "logo.actions": []
+      },
+      "qChildren": []
+    }
+  ]
+}

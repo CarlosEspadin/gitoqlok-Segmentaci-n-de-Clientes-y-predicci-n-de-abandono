@@ -1,0 +1,77 @@
+///$tab Dimensiones
+////////////////////////////////////////////////////////////////////////////////////
+//* Territorios/UDN y Materiales *//
+////////////////////////////////////////////////////////////////////////////////////
+
+/* 
+    QVD de Territorios y UDN. 
+*/
+Territorios:
+LOAD
+    Region,
+    TERRITORY_NAME,
+    TERRITORY_NUM as Territorio,
+    UDN_NameMX,
+    UDN_Num,
+    Puesto,
+    AñoCr,
+    Gerentes_CTV,
+    Nombre_Outlook
+FROM [lib://SharedFolder/LANSOP/QVD/DataHelp/TerritoryMxV2.qvd]
+(qvd)
+where Exists(Territorio, TERRITORY_NUM);
+
+Clientes:
+Load 
+	Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)) as Sold_to,
+    ApplyMap('map_BP', Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)), Null()) as Customer_id,
+    ApplyMap('Map_BPname', Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)), Null()) as BP_Description,
+    ApplyMap('Mapblock', Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)), Null()) as Customer_Status,
+    ApplyMap('MapTypeBP', Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)), Null()) as Customer_Type,
+    [Customer.Country (MD)] as Cod_País, 
+    [Customer.Customer_Medium_Description (MD)] as Cliente_Descripción,
+    [Customer.Customer (MD)],
+    [Customer.Region_Medium_Description (MD)] as Estados,
+    [Customer.Date on which record (MD)] as Fecha_Registro
+    FROM [lib://CustomerLAT/T_G_MRH_MD_Customer_FULL.QVD] (qvd)
+Where Exists(Customer_id, ApplyMap('map_BP', Num(Right([Customer.Customer (MD)], Len([Customer.Customer (MD)])-4)), Null()) )
+and Match([Customer.Country (MD)] ,'MX');
+
+///////////////  Table Medida to create Variable Button in Dashboard   /////////////////
+Correlaciones:
+CrossTable (names, value) LOAD
+	names as varname1,
+    y,
+    Antiguedad,
+    Volumen,
+    Consumo,
+    N_Material,
+    Bodegas,
+    Frec,
+    Tiempo_ultima_compra,
+    Devolucion,
+    Venta_2020,
+    Venta_2021,	Venta_2022,
+    Venta_2023,
+    Crecimiento_21vs20,
+    Crecimiento_22vs21,
+    Crecimiento_23vs22,
+    Cliente_Nuevo
+FROM [lib://AttachedFiles/Correlaciones.xlsx]
+(ooxml, embedded labels, table is Sheet1);
+
+Materiales:
+LOAD
+    Num(Num#(NoProducto)) as NoProducto,
+    NegocioAbrv AS NEGOCIO,
+    ProductoDescrip as Producto,
+    LineaNegocio AS LN,
+    LineaNegocioAbrv as Neg,
+    MARCA as Marcas, 
+    IngredienteActivo as IngredienteActivo_1,
+    Business.Division AS [Division de Negocio]
+FROM [lib://SharedFolder/LANSOP/QVD/DataHelp/MaterialHp.qvd]
+(qvd)
+Where Business.Division = 'CP';
+
+// Exit Script;

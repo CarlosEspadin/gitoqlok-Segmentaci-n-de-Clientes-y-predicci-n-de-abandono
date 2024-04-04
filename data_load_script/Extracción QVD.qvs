@@ -1,0 +1,30 @@
+///$tab Extracción QVD
+Extraccion:
+noconcatenate
+Load
+	bp_id,
+    [Fecha de Facturacion],
+    [Material.Number],
+    Sold as SoldTo,
+    Ship_to,
+    Clientes,
+    NegocioAbrv,
+    Date(Date#(Date(Registro))) as [Fecha de Registro],
+    if(Order_Type='ZRE', 1, 0) AS Devoluciones,
+    Estado_Factura AS Estado,
+    TERRITORY_NUM,
+    SO,
+    LineaNegocioAbrv,
+    VOLUMEN2 AS Volumen,
+    Net_Value2 AS Consumo
+Resident Invoices
+	Where Len(TERRITORY_NUM)>0
+    and Len(Clientes)>0; 
+
+
+
+Store Extraccion into [$(vPath)/LANSOP/QVD/Churn/CustomerSales.qvd] (qvd);
+
+Drop Table Extraccion;
+
+Exit Script;

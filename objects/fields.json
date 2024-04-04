@@ -1,0 +1,1121 @@
+[
+  {
+    "qName": "Antiguedad",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Año de Facturacion",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Año y Mes de Facturacion",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "AñoCr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "Año_Registro",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "BP_Description",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "BaseUOM_Billing",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Best_Model",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Business.Division",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Churn",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Cliente_Descripción",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Cliente_Nuevo",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Clientes",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Cod_País",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Compra_unica",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Compro",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Consumo",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Crecimiento_21vs20",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Crecimiento_22vs21",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Crecimiento_23vs22",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Customer.Customer (MD)",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Customer_Status",
+    "qTags": [],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Customer_Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Customer_id",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Prediction",
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "DEN_bill",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Date_Last",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Devolucion",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Division de Negocio",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "Estado",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Estado_Factura",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Estados",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Fecha de Facturacion",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "FechaRegistro",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Fecha_Registro",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "Frec",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Gerentes_CTV",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "ID_Sold",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "IngredienteActivo",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "IngredienteActivo_1",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "Invocie Acct Recv Amt",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "KNN",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "LN",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "LineaNegocio",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "LineaNegocioAbrv",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Linea_Negocio",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "MARCA",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "MATUNIT_Bill",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "MLP",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Marcas",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "Material.Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Mes de Facturacion",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "NEGOCIO",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "NOM_bill",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "N_Material",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "N_Ship_to",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Neg",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "Negocio",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "NegocioAbrv",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Net_Value2",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Net_price2",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "NoProducto",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Prediction",
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "Nombre_Outlook",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "Num_Fact",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Orden_posicion",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Order.Nr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Order_Posicion",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Order_Type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Orderkey",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "OrganizaciónVentas",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Product_Name",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Producto",
+    "qTags": [],
+    "qSrcTables": [
+      "Materiales"
+    ]
+  },
+  {
+    "qName": "ProductoDescrip",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Puesto",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "Random_Forest",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Region",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "Registro",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "SO",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Sales Gross Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Sales Net Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Sales Qty",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "SalesUOM_Billing",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Ship_to",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Sold",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Sold_to",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Clientes"
+    ]
+  },
+  {
+    "qName": "TERRITORY_NAME",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "TERRITORY_NUM",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Temporada",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Territorio",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Prediction",
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "Tiempo_ultima_compra",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Tienda_Inge",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Tipos",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "UDN_NameMX",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "UDN_Num",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Territorios"
+    ]
+  },
+  {
+    "qName": "UDNs",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "VOLUMEN2",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "VOLUMEN3",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "Venta_2020",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Venta_2021",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Venta_2022",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Venta_2023",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "Volumen",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "bp_id",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Prediction",
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "linear_regression",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "names",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Correlaciones"
+    ]
+  },
+  {
+    "qName": "por",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoices"
+    ]
+  },
+  {
+    "qName": "proba_Best",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "proba_MLP",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "proba_knn",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "proba_lr",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "proba_rf",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "value",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Correlaciones"
+    ]
+  },
+  {
+    "qName": "varname1",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Correlaciones"
+    ]
+  },
+  {
+    "qName": "y",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  },
+  {
+    "qName": "y^_Best",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Prediction"
+    ]
+  }
+]

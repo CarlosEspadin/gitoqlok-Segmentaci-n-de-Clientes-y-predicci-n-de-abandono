@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "e2b224bd-0cb7-4d97-9d8a-4e34061d765c",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vContenedor1",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "tags": []
+}

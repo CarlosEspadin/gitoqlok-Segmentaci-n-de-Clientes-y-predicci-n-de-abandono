@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "0412f770-6d8f-43a2-b7a1-ce38a92169ff",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vModelo",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Best_Model",
+  "tags": []
+}

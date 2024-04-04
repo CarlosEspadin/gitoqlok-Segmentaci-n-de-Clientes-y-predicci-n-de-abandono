@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "818c544c-44ec-475a-99fb-2a38f2ed651a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "TotalClientes",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "=Count(distinct Sold_to)",
+  "tags": []
+}

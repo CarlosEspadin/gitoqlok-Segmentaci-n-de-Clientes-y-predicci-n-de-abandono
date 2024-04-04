@@ -1,0 +1,327 @@
+///$tab QVD
+/*  Proyecto: Churn Rate
+    Autor: Carlos Espadin Medina
+    Version: 4.0
+    Fecha: 14/04/2023
+*/
+
+//////// Mapp Tiendas el Inge ////////
+
+MapInge:
+Mapping
+LOAD
+    "Ship-to",
+    'Es Tienda el Inge' as Indice
+FROM [lib://AttachedFiles/Tiendas_El_Inge.xlsx]
+(ooxml, embedded labels, table is [Tienda-geografía]);
+
+MapTerritorios:
+Mapping
+LOAD
+    TERRITORY_NUM as Territorio,
+    TERRITORY_NAME
+FROM [lib://SharedFolder/LANSOP/QVD/DataHelp/TerritoryMxV2.qvd]
+(qvd);
+
+MapUDN:
+Mapping
+LOAD
+    TERRITORY_NUM as Territorio,
+    UDN_NameMX
+FROM [lib://SharedFolder/LANSOP/QVD/DataHelp/TerritoryMxV2.qvd]
+(qvd);
+
+Invoices:
+LOAD
+    Num(Num#(NoProducto)) as "Material.Number",
+    NegocioAbrv,
+    Product_Name,
+    ProductoDescrip,
+    Negocio,
+    LineaNegocio,
+    LineaNegocioAbrv,
+    MARCA, 
+    IngredienteActivo,
+    Business.Division
+FROM [lib://SharedFolder/LANSOP/QVD/DataHelp/MaterialHp.qvd]
+(qvd)
+Where Business.Division = 'CP';
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//*Factor de conversion *//
+////////////////////////////////////////////////////////////////////////////////////
+/*
+    En esta seccion del codigo, se cargan y preparan los factores de unidad de medida
+    en base UoM y Sales UoM,
+*/
+
+NoConcatenate
+UNIT_MAT:
+LOAD Distinct
+    MATERIAL_UNIDADES&'|'&Alt_UOM&'|'&Base_UOM as MAT_UNIT,
+    DEN,
+    NOM,
+    log
+FROM [$(vPath)/LANSOP/QVD/DataHelp/UnidadesHP.qvd] (qvd);
+
+map_NOM:
+Mapping
+Load
+    MAT_UNIT,
+    NOM  // Mapping with Temp_Key //
+Resident UNIT_MAT;
+
+map_DEN:
+Mapping
+Load
+    MAT_UNIT,
+    DEN  // Mapping with Temp_Key //
+Resident UNIT_MAT;
+
+Drop table UNIT_MAT;
+
+////////////////////////////////////////////////////////////////////////////////////
+//* Ordenes *//
+////////////////////////////////////////////////////////////////////////////////////
+
+/* 
+    En esta seccion del codigo se realiza la carga de la informacion de pedidos.
+*/
+
+
+
+Orders_temp:
+Load
+    If(SALES_UOM='LT','L',
+        IF(SALES_UOM ='BX','BOX',
+            IF(SALES_UOM ='EA','PC', SALES_UOM))) as SALES_UOM,
+    If(BASE_UOM='LT','L',
+        IF(BASE_UOM ='BX','BOX',
+            IF(BASE_UOM ='EA','PC', BASE_UOM))) as BASE_UOM,
+    SALES_ORG_NAME as Order_SO,
+    Num(Num#(PROD_ID_NUM))&'|'&   
+    If(SALES_UOM='LT','L',
+        IF(SALES_UOM ='BX','BOX',
+            IF(SALES_UOM ='EA','PC', SALES_UOM)))   &'|'& 
+    If(BASE_UOM='LT','L',
+        IF(BASE_UOM ='BX','BOX',
+            IF(BASE_UOM ='EA','PC', BASE_UOM))) as MAT_UNIT,
+    DATE(REQUESTED_DELIVERY_DATE,'DD/MM/YYYY') as "Requested Delivery date",
+    IF(Len(Trim(ORDER_DOC_NUM))<10,(repeat('0' ,(10-Len(Trim(ORDER_DOC_NUM)))) & 
+        Trim(ORDER_DOC_NUM)),Trim(ORDER_DOC_NUM)) &'|'& 
+        Num(Num#(ORDER_LINE_ITEM)) &'|'&   
+        PROD_ID_NUM as Orderkey,
+        ORDER_DOC_NUM
+From [lib://SharedFolder/LANSOP/QVD/CMD/Orders_v3.qvd] (qvd)
+Where Match(SALES_ORG_NAME,'3CR','3IS','3ST') and Match(ORDER_TYPE,'ZRG','ZRE')
+and ORDER_CREATE_DATE >= YearStart(Today(), -5) and  ORDER_CREATE_DATE <=  '01/01/2024'
+and SALES_UOM <> 'BG'
+and NAFTA_COUNTRY_CD = 'MX';
+
+/* 
+    Se añaden los factores de conversion para los volumenes.
+*/
+
+
+Orders_temp1:
+load *,
+    ApplyMap('map_NOM',MAT_UNIT,1) as NOM, // Mapping from section CATALOG & TEMP//
+    ApplyMap('map_DEN',MAT_UNIT,1) as DEN // Mapping from section CATALOG & TEMP//
+Resident Orders_temp;
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//* Facturas *//
+////////////////////////////////////////////////////////////////////////////////////
+/*
+     Mappings para pegar las unidades de medida de base a las facturas.
+*/
+
+
+
+Temp3:
+Mapping
+load Orderkey,
+    "SALES_UOM" as SalesUOM_Billing
+Resident Orders_temp1;
+
+Temp4:
+Mapping
+load Orderkey,
+    BASE_UOM as BaseUOM_Billing
+Resident Orders_temp1;
+
+/*
+    Carga de los datos de facturas.     
+*/
+
+Invoices_temp1:
+Load 
+	INVC_NUM as Num_Fact,
+    Num(Num#(INVC_LINE_ITEM)) as Orden_posicion,
+    Num(Num#(PROD_ID_NUM)) as "Material.Number",
+    ORDER_TYPE as Order_Type,
+    Num(Num#(ORDER_NUM)) as [Order.Nr],
+    Num(Num#(ORDER_LINE_ITEM_NUM)) as Order_Posicion,
+    SALES_ORG_NAME as SO,
+    Num(Num#(SHIP_TO_CUST_NUM)) as Ship_to,
+    Num(Num#(SOLD_TO_CUST_NUM)) as ID_Sold,
+    Num(Num#(SOLD_TO_CUST_NUM)) as Sold,
+    IF(Len(Trim(ORDER_NUM))<10,(repeat('0' ,(10-Len(Trim(ORDER_NUM)))) & 
+        Trim(ORDER_NUM)),Trim(ORDER_NUM)) &'|'&  
+        Num(Num#(ORDER_LINE_ITEM_NUM)) &'|'&  PROD_ID_NUM as Orderkey, 
+    Date(Date#(Date(INVC_DATE))) as "Fecha de Facturacion",
+    Date(MonthStart(INVC_DATE), 'MMM-YYYY') as "Año y Mes de Facturacion",
+    Year(Date(INVC_DATE)) AS "Año de Facturacion",
+    Month(INVC_DATE) AS "Mes de Facturacion",
+    SALES_GROSS_AMT as [Sales Gross Amount],
+    SALES_NET_AMT as [Sales Net Amount],
+    SALES_QTY as [Sales Qty],
+    SHIP_TO_TERR_NUM as TERRITORY_NUM,
+    INVC_ACCT_RECV_AMT as [Invocie Acct Recv Amt],
+    ITEM_PRICE as Net_price2, 
+    PRICE_UNIT_QTY as por
+From [lib://SharedFolder/LANSOP/QVD/CMD/Sales_Invoicesv3.qvd] (qvd)
+// Where Match(SALES_ORG_NAME,'3CR','3IS','3ST') and Match(ORDER_TYPE,'ZRG','ZRE')
+Where Match(SALES_ORG_NAME, '3CR','3IS','3ST') and Match(ORDER_TYPE,'ZRG', 'ZRE')
+and INVC_DATE >= YearStart(Today(), -5) and  INVC_DATE <=  '01/01/2024'
+and NAFTA_COUNTRY_CD = 'MX';
+/* 
+    Mapping para pegar las unidades de medida para cada material.
+*/
+Invoices_temp:
+LOAD *,
+	ApplyMap('Temp3', Orderkey) as SalesUOM_Billing,
+    ApplyMap('Temp4', Orderkey) as BaseUOM_Billing
+    Resident Invoices_temp1;
+    
+Drop table Invoices_temp1;
+
+
+
+// 3IS 
+/*
+    Este Maping se utiliza para pegar los factores de coversion y la llave MATUNIT.
+*/
+Invoices_temp1:
+load *,
+	Material.Number&'|'&   
+       If(SalesUOM_Billing='LT','L',
+       IF(SalesUOM_Billing ='BX','BOX',
+       IF(SalesUOM_Billing ='EA','PC', SalesUOM_Billing)))   
+       &'|'& 
+       If(BaseUOM_Billing='LT','L',
+       IF(BaseUOM_Billing ='BX','BOX',
+       IF(BaseUOM_Billing ='EA','PC', BaseUOM_Billing))) as MATUNIT_Bill,
+	ApplyMap('map_NOM',Material.Number&'|'&   
+       If(SalesUOM_Billing='LT','L',
+       IF(SalesUOM_Billing ='BX','BOX',
+       IF(SalesUOM_Billing ='EA','PC', SalesUOM_Billing)))   
+       &'|'& 
+       If(BaseUOM_Billing='LT','L',
+       IF(BaseUOM_Billing ='BX','BOX',
+       IF(BaseUOM_Billing ='EA','PC', BaseUOM_Billing))),1) as NOM_bill, // Mapping from section CATALOG & TEMP//
+    ApplyMap('map_DEN',Material.Number&'|'&   
+       If(SalesUOM_Billing='LT','L',
+       IF(SalesUOM_Billing ='BX','BOX',
+       IF(SalesUOM_Billing ='EA','PC', SalesUOM_Billing)))   
+       &'|'& 
+       If(BaseUOM_Billing='LT','L',
+       IF(BaseUOM_Billing ='BX','BOX',
+       IF(BaseUOM_Billing ='EA','PC', BaseUOM_Billing))),1) as DEN_bill // Mapping from section CATALOG & TEMP//
+Resident Invoices_temp;
+
+/*
+	Vamos a mapear el bp_id
+
+*/
+BP_Temp:
+Load *;
+select distinct
+	mbm.account_name_id,
+	mbm.account_type_fr,
+    mbm.central_sales_block,
+    mbm.unique_key,
+	mbv.bp_cid,
+	mbv.bp_id
+from mio.public.mio03_bp_main mbm
+left join mio.public.mio03_bp_affiliation mba on mba.bp_guid = mbm.bp_guid
+left join mio.public.mio03_bp_main mbm_parent on mbm_parent.bp_guid = mba.parent_bp_guid
+left join mio.public.mio03_bp_view mbv on mbv.bp_guid = mbm.bp_guid
+where (mbm.account_country in('MX')) and
+      (mbm.source_system_cde='SFDC') and
+      (mbm.record_type = 'Account') and
+      (mbm.mio_current_status = 1) and
+      (mba.mio_source_table_name='Account') and (mba.flag_is_deleted=false) and
+      (mbm.flag_is_deleted = 0);
+      
+      
+map_BP:
+Mapping
+Load
+	Num(bp_id) as Sold,
+	If(Left(unique_key, 4) = 'MDMi', 
+    	Num(Right(unique_key, Len(unique_key)-5)), unique_key) as bp_id
+Resident BP_Temp;
+
+Map_BPname:
+Mapping
+Load
+	Num(bp_id) as Sold,
+    account_name_id
+Resident BP_Temp;
+
+Mapblock:
+Mapping
+Load 
+	Num(bp_id) as Sold,
+    central_sales_block
+Resident BP_Temp;
+
+MapTypeBP:
+Mapping
+Load
+	Num(bp_id) as Sold,
+    account_type_fr
+Resident BP_Temp;
+
+Drop table BP_Temp;
+/*
+    Se realiza la conversion de unidad de medida para las facturas y se calcula el valor neto. 
+    Nota en el documento de facturas el pedido viene en unidad de medida de venta (Kilo o litro)
+    por lo cual fue necesario la operacion inversa para el campo Sales Qty.
+*/
+
+
+Inner Join(Invoices)
+load *,
+	ApplyMap('RegistroTemp', ID_Sold, Null()) as Registro,
+	ApplyMap('ClientesTemp', ID_Sold, Null()) as Clientes,
+    ApplyMap('EstadoTemp', ID_Sold, Null()) as Estado_Factura,
+    ApplyMap('MapInge', Ship_to, 'No es tienda el Inge') as Tienda_Inge,
+    ApplyMap('map_BP', Sold, Null()) as bp_id,
+    ([Sales Qty]*DEN_bill)/NOM_bill as VOLUMEN2,
+    ApplyMap('MapUDN', TERRITORY_NUM, Null()) as UDNs,
+    IF(BaseUOM_Billing= 'L', ([Sales Qty]),
+        ([Sales Qty])) AS VOLUMEN3,
+        (([Sales Qty]*DEN_bill)/NOM_bill)*Net_price2 as Net_Value2
+resident Invoices_temp1
+// Where Exists("Material.Number", "Material.Number")
+Order By "Fecha de Facturacion" ASC;
+
+Drop table Orders_temp;
+Drop Table Orders_temp1;
+Drop table Invoices_temp;
+Drop Table Invoices_temp1;
+////////////////////////////////////////////////////////////////////////////////////
+//* Territorios/UDN y Materiales *//
+///////////////////////////////////////////////////////////////////////////////////
+/* 
+    QVD de Materiales. 
+*/
+
+
+
+
+// Exit Script;

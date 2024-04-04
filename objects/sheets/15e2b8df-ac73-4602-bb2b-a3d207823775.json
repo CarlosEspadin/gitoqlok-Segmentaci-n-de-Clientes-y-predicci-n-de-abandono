@@ -1,0 +1,5699 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "15e2b8df-ac73-4602-bb2b-a3d207823775",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Resultados",
+      "description": ""
+    },
+    "rank": 1.875,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/9f1c1bc6-2a66-4b14-bc1a-ae0820562613/Predicciones.jpg"
+      }
+    },
+    "columns": 36,
+    "rows": 31,
+    "cells": [
+      {
+        "name": "gwdcF",
+        "type": "container",
+        "col": 0,
+        "row": 7,
+        "colspan": 21,
+        "rowspan": 21,
+        "bounds": {
+          "y": 22.58064516129032,
+          "x": 0,
+          "width": 58.333333333333336,
+          "height": 67.74193548387096
+        }
+      },
+      {
+        "name": "YSaCYj",
+        "type": "map",
+        "col": 21,
+        "row": 7,
+        "colspan": 15,
+        "rowspan": 9,
+        "bounds": {
+          "y": 22.58064516129032,
+          "x": 58.333333333333336,
+          "width": 41.66666666666667,
+          "height": 29.03225806451613
+        }
+      },
+      {
+        "name": "EZLKua",
+        "type": "treemap",
+        "col": 21,
+        "row": 16,
+        "colspan": 15,
+        "rowspan": 12,
+        "bounds": {
+          "y": 51.61290322580645,
+          "x": 58.333333333333336,
+          "width": 41.66666666666667,
+          "height": 38.70967741935484
+        }
+      },
+      {
+        "name": "bekbqK",
+        "type": "VizlibSheetMenu",
+        "col": 18,
+        "row": 29,
+        "colspan": 18,
+        "rowspan": 2,
+        "bounds": {
+          "y": 93.54838709677419,
+          "x": 50,
+          "width": 50,
+          "height": 6.451612903225806
+        }
+      },
+      {
+        "name": "LDMnx",
+        "type": "action-button",
+        "col": 0,
+        "row": 28,
+        "colspan": 36,
+        "rowspan": 1,
+        "bounds": {
+          "y": 90.32258064516128,
+          "x": 0,
+          "width": 100,
+          "height": 3.225806451612903
+        }
+      },
+      {
+        "name": "FfmMydV",
+        "type": "qlik-variable-input",
+        "col": 0,
+        "row": 5,
+        "colspan": 6,
+        "rowspan": 2,
+        "bounds": {
+          "y": 16.129032258064516,
+          "x": 0,
+          "width": 16.666666666666664,
+          "height": 6.451612903225806
+        }
+      },
+      {
+        "name": "zVQmSJ",
+        "type": "qlik-variable-input",
+        "col": 6,
+        "row": 5,
+        "colspan": 6,
+        "rowspan": 2,
+        "bounds": {
+          "y": 16.129032258064516,
+          "x": 16.666666666666664,
+          "width": 16.666666666666664,
+          "height": 6.451612903225806
+        }
+      },
+      {
+        "name": "TfEEJP",
+        "type": "VizlibAdvancedTextObject",
+        "col": 0,
+        "row": 0,
+        "colspan": 14,
+        "rowspan": 4,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 38.88888888888889,
+          "height": 12.903225806451612
+        }
+      },
+      {
+        "name": "aDCyEe",
+        "type": "qlik-variable-input",
+        "col": 25,
+        "row": 5,
+        "colspan": 11,
+        "rowspan": 2,
+        "bounds": {
+          "y": 16.129032258064516,
+          "x": 69.44444444444444,
+          "width": 30.555555555555557,
+          "height": 6.451612903225806
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "large",
+    "layoutOptions": {
+      "mobileLayout": "GRID",
+      "extendable": true,
+      "sheetMode": "RESPONSIVE"
+    },
+    "gridMode": "edit",
+    "customRowBase": 24,
+    "height": 169,
+    "components": [
+      {
+        "key": "general",
+        "bgColor": {
+          "useExpression": false,
+          "color": {
+            "index": 9,
+            "color": "#f8981d"
+          }
+        }
+      }
+    ]
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "gwdcF",
+          "qType": "container"
+        },
+        "qMetaDef": {},
+        "children": [
+          {
+            "refId": "prRGjJ",
+            "label": "Detalle",
+            "isMaster": false,
+            "cId": "TsVBWYX"
+          },
+          {
+            "refId": "NSTSdC",
+            "label": "Gráfico de dispersión",
+            "isMaster": false,
+            "cId": "gEscpD"
+          },
+          {
+            "refId": "AUHzJA",
+            "label": "Segmentación de Clientes",
+            "isMaster": false,
+            "cId": "gvCRs"
+          },
+          {
+            "refId": "cjrJhvt",
+            "label": "Probabilidad de abandono por Estado",
+            "isMaster": false,
+            "cId": "EaPHRnG",
+            "condition": {
+              "qStringExpression": {
+                "qExpr": "=0"
+              }
+            }
+          }
+        ],
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "borders": "auto",
+        "showTabs": true,
+        "useDropdown": true,
+        "useScrollButton": true,
+        "showIcons": false,
+        "activeTab": "",
+        "defaultTab": "",
+        "visualization": "container",
+        "qChildListDef": {
+          "qData": {
+            "visualization": "/visualization",
+            "containerChildId": "/containerChildId",
+            "qExtendsId": "/qExtendsId",
+            "title": "/title",
+            "showCondition": "/showCondition"
+          }
+        },
+        "supportRefresh": false,
+        "hasExternalChildren": false
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "c4875248-54b3-492d-b6bd-c4a744d34aef",
+              "qType": "distributionplot"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=[Cliente_Descripción]"
+                    ],
+                    "qFieldLabels": [
+                      "Cliente"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "pTRMGMm",
+                    "othersLabel": "Otros"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Otros"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                },
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Estado"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "BRseBa",
+                    "othersLabel": "Otros"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_COUNTED",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qSuppressOther": true,
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Otros"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qLabel": "Probablidad de Abandono",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum($(vProbabilidades))",
+                    "qNumFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "0.00%",
+                      "qDec": ".",
+                      "qThou": ","
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "CRRM",
+                    "numFormatFromTemplate": true,
+                    "isCustomFormatted": false
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                1,
+                0,
+                2
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "K",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qAlwaysFullyExpanded": true,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [
+                    {
+                      "qDef": {
+                        "qLabel": "Probabilidad de no abandono",
+                        "qTags": [],
+                        "qGrouping": "N",
+                        "qDef": "Sum(1-$(vProbabilidades))",
+                        "qNumFormat": {
+                          "qType": "F",
+                          "qnDec": 2,
+                          "qUseThou": 0,
+                          "qFmt": "0.00%",
+                          "qDec": ".",
+                          "qThou": ","
+                        },
+                        "qAccumulate": 0,
+                        "qActiveExpression": 0,
+                        "qExpressions": [],
+                        "autoSort": true,
+                        "cId": "fpMNGT",
+                        "numFormatFromTemplate": true,
+                        "isCustomFormatted": false
+                      },
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qAttributeExpressions": [],
+                      "qAttributeDimensions": [],
+                      "qCalcCond": {},
+                      "qCalcCondition": {
+                        "qCond": {},
+                        "qMsg": {}
+                      },
+                      "qTrendLines": [],
+                      "qMiniChartDef": {
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qOtherTotalSpec": {
+                          "qOtherMode": "OTHER_OFF",
+                          "qOtherCounted": {},
+                          "qOtherLimit": {},
+                          "qOtherLimitMode": "OTHER_GT_LIMIT",
+                          "qForceBadValueKeeping": true,
+                          "qApplyEvenWhenPossiblyWrongResult": true,
+                          "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                          "qTotalMode": "TOTAL_OFF",
+                          "qReferencedExpression": {}
+                        },
+                        "qMaxNumberPoints": -1,
+                        "qAttributeExpressions": []
+                      }
+                    }
+                  ],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              }
+            },
+            "script": "",
+            "refLine": {
+              "refLines": []
+            },
+            "showTitles": false,
+            "title": "Distribución de Clientes por ",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showDisclaimer": true,
+            "orientation": "horizontal",
+            "presentation": {
+              "visibleComponents": "points_box"
+            },
+            "gridlines": {
+              "auto": true,
+              "spacing": 2
+            },
+            "dataPoint": {
+              "bubbleScales": 80,
+              "displacement": "jitter"
+            },
+            "color": {
+              "point": {
+                "auto": false,
+                "mode": "byDimension",
+                "useBaseColors": "off",
+                "paletteColor": {
+                  "index": 6
+                },
+                "useDimColVal": true,
+                "persistent": true,
+                "expressionIsColor": true,
+                "measureScheme": "sg",
+                "reverseScheme": false,
+                "dimensionScheme": "12",
+                "autoMinMax": true,
+                "measureMin": 0,
+                "measureMax": 10,
+                "altLabel": "Estado",
+                "byDimDef": {
+                  "label": "Estado",
+                  "key": "Estado",
+                  "type": "expression"
+                }
+              },
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "expressionLabel": "",
+              "box": {
+                "paletteColor": {
+                  "color": "#e6e6e6",
+                  "index": -1
+                }
+              }
+            },
+            "legend": {
+              "show": true,
+              "dock": "right",
+              "showTitle": false
+            },
+            "measureAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "dimensionAxis": {
+              "show": "all",
+              "label": "auto",
+              "dock": "near"
+            },
+            "visualization": "distributionplot",
+            "version": "0.36.1",
+            "sorting": {
+              "autoSort": true,
+              "elementId": "distplot-exp-min",
+              "sortCriteria": {
+                "sortByExpression": 1,
+                "sortByAscii": 1,
+                "sortByNumeric": 1,
+                "sortByLoadOrder": 1
+              },
+              "expression": {
+                "qValueExpression": {
+                  "qExpr": "Min( total <[Estado]> Aggr( Sum(Frec), [Estado], [Sold_to] ), 0 )"
+                }
+              }
+            },
+            "qUndoExclude": {
+              "hashCode": 31777183,
+              "qHyperCubeDef": {
+                "qDimensions": [
+                  {
+                    "qDef": {
+                      "qGrouping": "N",
+                      "qFieldDefs": [
+                        "Estado"
+                      ],
+                      "qFieldLabels": [
+                        ""
+                      ],
+                      "qSortCriterias": [
+                        {
+                          "qSortByNumeric": 1,
+                          "qSortByAscii": 1,
+                          "qSortByLoadOrder": 1,
+                          "qSortByExpression": -1,
+                          "qExpression": {
+                            "qv": "Max( total <[Estado]> Aggr( Sum($(vProbabilidades)), [Estado], [=[Cliente_Descripción]]] ), 1 )"
+                          }
+                        }
+                      ],
+                      "qNumberPresentations": [],
+                      "qActiveField": 0,
+                      "autoSort": true,
+                      "cId": "BRseBa",
+                      "othersLabel": "Otros"
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_COUNTED",
+                      "qOtherCounted": {
+                        "qv": "10"
+                      },
+                      "qOtherLimit": {
+                        "qv": "0"
+                      },
+                      "qOtherLimitMode": "OTHER_GE_LIMIT",
+                      "qSuppressOther": true,
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qOtherLabel": {
+                      "qv": "Otros"
+                    },
+                    "qTotalLabel": {},
+                    "qCalcCond": {},
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "Min( total <[Estado]> Aggr( Sum($(vProbabilidades)), [Estado], [=[Cliente_Descripción]]] ), 0 )",
+                        "id": "minBoxValue"
+                      },
+                      {
+                        "qExpression": "Max( total <[Estado]> Aggr( Sum($(vProbabilidades)), [Estado], [=[Cliente_Descripción]]] ), 1 )",
+                        "id": "maxBoxValue"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    }
+                  },
+                  {
+                    "qDef": {
+                      "qGrouping": "N",
+                      "qFieldDefs": [
+                        "=[Cliente_Descripción]"
+                      ],
+                      "qFieldLabels": [
+                        "Cliente"
+                      ],
+                      "qSortCriterias": [
+                        {
+                          "qSortByNumeric": 1,
+                          "qSortByAscii": 1,
+                          "qSortByLoadOrder": 1,
+                          "qExpression": {}
+                        }
+                      ],
+                      "qNumberPresentations": [],
+                      "qActiveField": 0,
+                      "autoSort": true,
+                      "cId": "pTRMGMm",
+                      "othersLabel": "Otros"
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {
+                        "qv": "10"
+                      },
+                      "qOtherLimit": {
+                        "qv": "0"
+                      },
+                      "qOtherLimitMode": "OTHER_GE_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qOtherLabel": {
+                      "qv": "Otros"
+                    },
+                    "qTotalLabel": {},
+                    "qCalcCond": {},
+                    "qAttributeExpressions": [],
+                    "qAttributeDimensions": [
+                      {
+                        "qDef": "Estado",
+                        "qSortBy": {
+                          "qSortByAscii": 1,
+                          "qExpression": {}
+                        },
+                        "qAttribute": true,
+                        "id": "colorByAlternative",
+                        "label": "Estado"
+                      }
+                    ],
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    }
+                  }
+                ],
+                "qMeasures": [
+                  {
+                    "qDef": {
+                      "qLabel": "Probablidad de Abandono",
+                      "qTags": [],
+                      "qGrouping": "N",
+                      "qDef": "Sum($(vProbabilidades))",
+                      "qNumFormat": {
+                        "qType": "F",
+                        "qnDec": 2,
+                        "qUseThou": 0,
+                        "qFmt": "0.00%",
+                        "qDec": ".",
+                        "qThou": ","
+                      },
+                      "qAccumulate": 0,
+                      "qActiveExpression": 0,
+                      "qExpressions": [],
+                      "autoSort": true,
+                      "cId": "CRRM",
+                      "numFormatFromTemplate": true,
+                      "isCustomFormatted": false
+                    },
+                    "qSortBy": {
+                      "qSortByNumeric": -1,
+                      "qSortByLoadOrder": 1,
+                      "qExpression": {}
+                    },
+                    "qAttributeExpressions": [],
+                    "qAttributeDimensions": [],
+                    "qCalcCond": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "qTrendLines": [],
+                    "qMiniChartDef": {
+                      "qSortBy": {
+                        "qExpression": {}
+                      },
+                      "qOtherTotalSpec": {
+                        "qOtherMode": "OTHER_OFF",
+                        "qOtherCounted": {},
+                        "qOtherLimit": {},
+                        "qOtherLimitMode": "OTHER_GT_LIMIT",
+                        "qForceBadValueKeeping": true,
+                        "qApplyEvenWhenPossiblyWrongResult": true,
+                        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                        "qTotalMode": "TOTAL_OFF",
+                        "qReferencedExpression": {}
+                      },
+                      "qMaxNumberPoints": -1,
+                      "qAttributeExpressions": []
+                    }
+                  }
+                ],
+                "qInterColumnSortOrder": [
+                  0,
+                  2,
+                  1
+                ],
+                "qSuppressMissing": true,
+                "qInitialDataFetch": [],
+                "qReductionMode": "N",
+                "qMode": "K",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qAlwaysFullyExpanded": true,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": [],
+                "qExpansionState": [],
+                "qDynamicScript": [],
+                "qLayoutExclude": {
+                  "qHyperCubeDef": {
+                    "qDimensions": [],
+                    "qMeasures": [
+                      {
+                        "qDef": {
+                          "qLabel": "Probabilidad de no abandono",
+                          "qTags": [],
+                          "qGrouping": "N",
+                          "qDef": "Sum(1-$(vProbabilidades))",
+                          "qNumFormat": {
+                            "qType": "F",
+                            "qnDec": 2,
+                            "qUseThou": 0,
+                            "qFmt": "0.00%",
+                            "qDec": ".",
+                            "qThou": ","
+                          },
+                          "qAccumulate": 0,
+                          "qActiveExpression": 0,
+                          "qExpressions": [],
+                          "autoSort": true,
+                          "cId": "fpMNGT",
+                          "numFormatFromTemplate": true,
+                          "isCustomFormatted": false
+                        },
+                        "qSortBy": {
+                          "qExpression": {}
+                        },
+                        "qAttributeExpressions": [],
+                        "qAttributeDimensions": [],
+                        "qCalcCond": {},
+                        "qCalcCondition": {
+                          "qCond": {},
+                          "qMsg": {}
+                        },
+                        "qTrendLines": [],
+                        "qMiniChartDef": {
+                          "qSortBy": {
+                            "qExpression": {}
+                          },
+                          "qOtherTotalSpec": {
+                            "qOtherMode": "OTHER_OFF",
+                            "qOtherCounted": {},
+                            "qOtherLimit": {},
+                            "qOtherLimitMode": "OTHER_GT_LIMIT",
+                            "qForceBadValueKeeping": true,
+                            "qApplyEvenWhenPossiblyWrongResult": true,
+                            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                            "qTotalMode": "TOTAL_OFF",
+                            "qReferencedExpression": {}
+                          },
+                          "qMaxNumberPoints": -1,
+                          "qAttributeExpressions": []
+                        }
+                      }
+                    ],
+                    "qInterColumnSortOrder": [],
+                    "qInitialDataFetch": [],
+                    "qReductionMode": "N",
+                    "qMode": "S",
+                    "qPseudoDimPos": -1,
+                    "qNoOfLeftDims": -1,
+                    "qMaxStackedCells": 5000,
+                    "qCalcCond": {},
+                    "qTitle": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "qColumnOrder": [],
+                    "qExpansionState": [],
+                    "qDynamicScript": []
+                  }
+                }
+              }
+            },
+            "containerChildId": "cjrJhvt"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "e77a8d70-68a4-4e26-a8a5-252ab8f01d50",
+              "qType": "scatterplot"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            },
+            "script": "",
+            "refLine": {
+              "refLinesX": [],
+              "refLinesY": []
+            },
+            "trendLines": [],
+            "showTitles": true,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showDisclaimer": true,
+            "navigation": false,
+            "dataPoint": {
+              "bubbleSizes": 5,
+              "rangeBubbleSizes": [
+                2,
+                8
+              ],
+              "compressionResolution": 5
+            },
+            "labels": {
+              "mode": 1
+            },
+            "compressionResolution": 5,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "color": {
+              "auto": true,
+              "mode": "primary",
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": false,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "sg",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10
+            },
+            "legend": {
+              "show": true,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "xAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "yAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false,
+              "chart": {
+                "style": {
+                  "size": "medium"
+                }
+              },
+              "title": "",
+              "description": ""
+            },
+            "visualization": "scatterplot",
+            "version": "3.29.2",
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "containerChildId": "NWdCMqp"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "15cce7d2-dae1-42c0-8eda-e76551035de2",
+              "qType": "scatterplot"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Cliente_Descripción"
+                    ],
+                    "qFieldLabels": [
+                      "Cliente"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "DTrxms",
+                    "othersLabel": "Otros"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Otros"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "=Sum($(vProbabilidades))",
+                      "qAttribute": true,
+                      "id": "colorByAlternative",
+                      "label": "Probabilidades"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qLabel": "Tiempo transcurrido desde la ultima compra",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum(Tiempo_ultima_compra)",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "jNYgDy",
+                    "numFormatFromTemplate": true
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "$$hashKey": "object:9828"
+                },
+                {
+                  "qDef": {
+                    "qLabel": "Probabilidad de Abandono",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum(proba_Best)",
+                    "qNumFormat": {
+                      "qType": "U",
+                      "qnDec": 10,
+                      "qUseThou": 0
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "FsmsYb",
+                    "numFormatFromTemplate": true
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  },
+                  "$$hashKey": "object:9829"
+                }
+              ],
+              "qInterColumnSortOrder": [
+                2,
+                1,
+                0
+              ],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              }
+            },
+            "script": "",
+            "refLine": {
+              "refLinesX": [],
+              "refLinesY": []
+            },
+            "trendLines": [],
+            "showTitles": false,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showDisclaimer": true,
+            "navigation": false,
+            "dataPoint": {
+              "bubbleSizes": 5,
+              "rangeBubbleSizes": [
+                2,
+                8
+              ],
+              "compressionResolution": 5
+            },
+            "labels": {
+              "mode": 1
+            },
+            "compressionResolution": 5,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "color": {
+              "auto": false,
+              "mode": "byMeasure",
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": false,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "dc",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10,
+              "altLabel": "Probabilidades",
+              "byMeasureDef": {
+                "label": "Probabilidades",
+                "key": "=Sum($(vProbabilidades))",
+                "type": "expression"
+              }
+            },
+            "legend": {
+              "show": true,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "xAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "yAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false,
+              "chart": {
+                "style": {
+                  "size": "medium"
+                }
+              },
+              "title": "",
+              "description": ""
+            },
+            "visualization": "scatterplot",
+            "version": "3.29.2",
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "containerChildId": "NSTSdC"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "9a14050c-c3ef-492a-ab4b-53512030b2ae",
+              "qType": "scatterplot"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            },
+            "script": "",
+            "refLine": {
+              "refLinesX": [],
+              "refLinesY": []
+            },
+            "trendLines": [],
+            "showTitles": true,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showDisclaimer": true,
+            "navigation": false,
+            "dataPoint": {
+              "bubbleSizes": 5,
+              "rangeBubbleSizes": [
+                2,
+                8
+              ],
+              "compressionResolution": 5
+            },
+            "labels": {
+              "mode": 1
+            },
+            "compressionResolution": 5,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "color": {
+              "auto": true,
+              "mode": "primary",
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": false,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "sg",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10
+            },
+            "legend": {
+              "show": true,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "xAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "yAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false,
+              "chart": {
+                "style": {
+                  "size": "medium"
+                }
+              },
+              "title": "",
+              "description": ""
+            },
+            "visualization": "scatterplot",
+            "version": "3.29.2",
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "containerChildId": "JEezdAk"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "fec4350c-260f-4bba-b04c-7cc7f0024ed4",
+              "qType": "scatterplot"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            },
+            "script": "",
+            "refLine": {
+              "refLinesX": [],
+              "refLinesY": []
+            },
+            "trendLines": [],
+            "showTitles": true,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showDisclaimer": true,
+            "navigation": false,
+            "dataPoint": {
+              "bubbleSizes": 5,
+              "rangeBubbleSizes": [
+                2,
+                8
+              ],
+              "compressionResolution": 5
+            },
+            "labels": {
+              "mode": 1
+            },
+            "compressionResolution": 5,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "color": {
+              "auto": true,
+              "mode": "primary",
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": false,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "sg",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10
+            },
+            "legend": {
+              "show": true,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "xAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "yAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false,
+              "chart": {
+                "style": {
+                  "size": "medium"
+                }
+              },
+              "title": "",
+              "description": ""
+            },
+            "visualization": "scatterplot",
+            "version": "3.29.2",
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "containerChildId": "yQbMSmz"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "e3c66efd-ad57-494b-beae-4ad68f53abd4",
+              "qType": "scatterplot"
+            },
+            "qMetaDef": {},
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qSuppressMissing": true,
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 0,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            },
+            "script": "",
+            "refLine": {
+              "refLinesX": [],
+              "refLinesY": []
+            },
+            "trendLines": [],
+            "showTitles": true,
+            "title": "",
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showDisclaimer": true,
+            "navigation": false,
+            "dataPoint": {
+              "bubbleSizes": 5,
+              "rangeBubbleSizes": [
+                2,
+                8
+              ],
+              "compressionResolution": 5
+            },
+            "labels": {
+              "mode": 1
+            },
+            "compressionResolution": 5,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "color": {
+              "auto": true,
+              "mode": "primary",
+              "formatting": {
+                "numFormatFromTemplate": true
+              },
+              "useBaseColors": "off",
+              "paletteColor": {
+                "index": 6
+              },
+              "useDimColVal": true,
+              "useMeasureGradient": true,
+              "persistent": false,
+              "expressionIsColor": true,
+              "expressionLabel": "",
+              "measureScheme": "sg",
+              "reverseScheme": false,
+              "dimensionScheme": "12",
+              "autoMinMax": true,
+              "measureMin": 0,
+              "measureMax": 10
+            },
+            "legend": {
+              "show": true,
+              "dock": "auto",
+              "showTitle": true
+            },
+            "xAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "yAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "tooltip": {
+              "auto": true,
+              "hideBasic": false,
+              "chart": {
+                "style": {
+                  "size": "medium"
+                }
+              },
+              "title": "",
+              "description": ""
+            },
+            "visualization": "scatterplot",
+            "version": "3.29.2",
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "containerChildId": "QxQRnMJ"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "f05c766b-e4b8-4428-a2ac-7c9e6fd07c9a",
+              "qType": "VizlibTable"
+            },
+            "qExtendsId": "93018140-8c2e-4472-bb9e-fe39fc80c698",
+            "qMetaDef": {}
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "4d90abdc-1f7e-4d70-a91e-d2ee751cd380",
+              "qType": "VizlibScatterChart"
+            },
+            "qMetaDef": {},
+            "search": "",
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "=bp_id&'-'&Cliente_Descripción"
+                    ],
+                    "qFieldLabels": [
+                      "Clientes"
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "MnNnrfk",
+                    "othersLabel": "Others",
+                    "bubble": {
+                      "symbols": {
+                        "show": true,
+                        "type": "symbol",
+                        "symbol": "circle",
+                        "imageUrl": "",
+                        "icon": {
+                          "expression": "='fa-circle'",
+                          "picker": "fa-circle"
+                        },
+                        "size": {
+                          "value": 9,
+                          "slider": 9
+                        },
+                        "opacity": {
+                          "slider": 0.5
+                        }
+                      }
+                    }
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {
+                      "qv": "10"
+                    },
+                    "qOtherLimit": {
+                      "qv": "0"
+                    },
+                    "qOtherLimitMode": "OTHER_GE_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {
+                    "qv": "Others"
+                  },
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "='='#3C43B7'\"",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "''",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='1'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='13'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='0.5'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='#000'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='#000\"",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='true'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='symbol'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='circle'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "=''",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='fa-circle'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='9'",
+                      "qAttribute": true
+                    },
+                    {
+                      "qExpression": "='0.5'",
+                      "qAttribute": true
+                    }
+                  ],
+                  "qAttributeDimensions": [
+                    {
+                      "qDef": "Clientes",
+                      "qSortBy": {
+                        "qExpression": {}
+                      }
+                    }
+                  ],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  }
+                }
+              ],
+              "qMeasures": [
+                {
+                  "qDef": {
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum(Tiempo_ultima_compra)",
+                    "qNumFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "#,##0.0",
+                      "qDec": ".",
+                      "qThou": ","
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "qLabelExpression": "='Tiempo trascurrido desde la ultima compra'",
+                    "autoSort": true,
+                    "cId": "VPumv",
+                    "numFormatFromTemplate": true,
+                    "isCustomFormatted": false
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                },
+                {
+                  "qDef": {
+                    "qLabel": "Probabilidad de abandono",
+                    "qTags": [],
+                    "qGrouping": "N",
+                    "qDef": "Sum($(vProbabilidades))",
+                    "qNumFormat": {
+                      "qType": "F",
+                      "qnDec": 2,
+                      "qUseThou": 0,
+                      "qFmt": "0.00%",
+                      "qDec": ".",
+                      "qThou": ","
+                    },
+                    "qAccumulate": 0,
+                    "qActiveExpression": 0,
+                    "qExpressions": [],
+                    "autoSort": true,
+                    "cId": "FBwKW",
+                    "numFormatFromTemplate": true,
+                    "isCustomFormatted": false
+                  },
+                  "qSortBy": {
+                    "qSortByNumeric": -1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  },
+                  "qAttributeExpressions": [],
+                  "qAttributeDimensions": [],
+                  "qCalcCond": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qTrendLines": [],
+                  "qMiniChartDef": {
+                    "qSortBy": {
+                      "qExpression": {}
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qMaxNumberPoints": -1,
+                    "qAttributeExpressions": []
+                  }
+                }
+              ],
+              "qInterColumnSortOrder": [
+                0,
+                1,
+                2
+              ],
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 5,
+                  "qHeight": 2000
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              }
+            },
+            "script": "",
+            "xAxisReferenceLines": [],
+            "yAxisReferenceLines": [],
+            "ReferenceBubbles": [],
+            "ReferenceAreas": [],
+            "ReferencePolygon": [],
+            "showRegressionLine": false,
+            "regressionType": "linear",
+            "regressionExponentialMode": "legacy",
+            "regressionStep": 1,
+            "regressionLineStyleMode": false,
+            "regressionLineStyle": "none",
+            "regressionLineStyleExpr": "",
+            "regressionColorMode": false,
+            "regressionColor": "#545352",
+            "regressionLineOpacity": 0.8,
+            "regressionLineThickness": 2,
+            "showRegressionEquation": false,
+            "regressionEquationPosition": "middle",
+            "regressionEquationVerticalPosition": "text-after-edge",
+            "regressionEquationFontSize": 12,
+            "regressionEquationOpacityOffset": 0,
+            "regressionr2": true,
+            "regressionRound": false,
+            "regressionRoundedSlider": 5,
+            "regressionByDimColor": false,
+            "bubblelabelshow": true,
+            "bubbleLabelExpressionSwitch": true,
+            "bubblelabeloverlap": true,
+            "bubbleLabelExpression": "='4'",
+            "bubbleLabelLimit": 30,
+            "bubbleLabelSlider": 30,
+            "labelBubbleFontcolor": "#545352",
+            "bubblelabelsize": 11,
+            "bubblelabelsizeslider": 11,
+            "bubblefontfamily": "\"QlikView Sans\", sans-serif",
+            "bubblecustomfontfamily": "<Type in your Font Name>",
+            "bubblesizescale": "auto",
+            "bubbleSizeProportion": true,
+            "bubbleSizeRatio": 0.3,
+            "bubbleSizeRatioExpression": 0.3,
+            "bubbleSizeExpression": "=13",
+            "bubblesizeformat": 13,
+            "bubbleBorderWidthExpression": "='0.5'",
+            "bubbleborderwidth": 0.5,
+            "bubbleColorExpressionSwitch": true,
+            "bubbleColorBorderExpression": "='#000'",
+            "bubbleFillExpressionSwitch": true,
+            "bubbleFillExpression": "='#000'",
+            "dateLabel": {
+              "show": false,
+              "fontStyle": "",
+              "fontSize": 100,
+              "fontSizeSlider": 100,
+              "fontFamily": "\"QlikView Sans\", sans-serif",
+              "customFontFamily": "<Type in your Font Name>",
+              "opacity": 1,
+              "color": "#dddddd"
+            },
+            "showlegend": false,
+            "legendvalues": "20,50,100",
+            "legendposition": "bottomright",
+            "legendpositioncustomx": 10,
+            "legendpositioncustomy": 10,
+            "legendtitle": "",
+            "legendtitlefontsize": 11,
+            "legendtitlefontsizeSlider": 11,
+            "legendvaluefontsize": 11,
+            "legendvaluefontsizeSlider": 11,
+            "fontfamily": "\"QlikView Sans\", sans-serif",
+            "presentation": {
+              "showLegend": false,
+              "legendPosition": "right",
+              "legendVerticalAlign": "center",
+              "legendHorizontalAlign": "center",
+              "legendtitle": "",
+              "legendtitlefontsize": 11,
+              "legendtitlefontsizeSlider": 11,
+              "legendformat": "auto",
+              "legendNegativeFormat": "symbol",
+              "fontfamily": "\"QlikView Sans\", sans-serif",
+              "fontstyle": ""
+            },
+            "dimPresentation": {
+              "showLegend": true,
+              "legendPosition": "bottom",
+              "legendVerticalAlign": "top",
+              "legendHorizontalAlign": "left",
+              "legendFontColor": "#ffffff",
+              "legendFontSize": 12,
+              "sortByXAxis": true,
+              "sortOrder": "desc",
+              "enableCharLimit": true,
+              "charLimit": 20,
+              "showLegendTitle": false,
+              "legentitletype": "auto",
+              "legendTitle": "",
+              "legendTitleColor": "#555",
+              "legendTitleFontSizeSlider": 12,
+              "legendTitleFontStyle": "",
+              "legendFontColorPicker": {
+                "index": -1,
+                "color": "#ffffff"
+              }
+            },
+            "bubblecolortype": "cluster",
+            "useMasterItemColors": false,
+            "bubbleGradientSwitch": false,
+            "bubbleMeasureDropdown": "",
+            "dimColorAttribute": "Clientes",
+            "customGradientColorExpression": "",
+            "customColor": [
+              {
+                "name": "YlOrBr",
+                "alias": "Qlik",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(255, 255, 229)"
+                  },
+                  {
+                    "value": "rgb(253, 165, 53)"
+                  },
+                  {
+                    "value": "rgb(103, 37, 6)"
+                  }
+                ]
+              },
+              {
+                "name": "Warm",
+                "alias": "Warm",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(110, 64, 170)"
+                  },
+                  {
+                    "value": "rgb(255, 86, 112)"
+                  },
+                  {
+                    "value": "rgb(179, 235, 83)"
+                  }
+                ]
+              },
+              {
+                "name": "RdYlGn",
+                "alias": "RAG",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(204, 0, 0)"
+                  },
+                  {
+                    "value": "rgb(255, 194, 0)"
+                  },
+                  {
+                    "value": "rgb(0, 204, 0)"
+                  }
+                ]
+              },
+              {
+                "name": "Viridis",
+                "alias": "Viridis",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(68, 1, 84)"
+                  },
+                  {
+                    "value": "rgb(36, 134, 142)"
+                  },
+                  {
+                    "value": "rgb(241, 229, 29)"
+                  }
+                ]
+              },
+              {
+                "name": "Inferno",
+                "alias": "Inferno",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(0, 0, 4)"
+                  },
+                  {
+                    "value": "rgb(171, 47, 94)"
+                  },
+                  {
+                    "value": "rgb(245, 249, 146)"
+                  }
+                ]
+              },
+              {
+                "name": "Magma",
+                "alias": "Magma",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(0, 0, 4)"
+                  },
+                  {
+                    "value": "rgb(171, 47, 94)"
+                  },
+                  {
+                    "value": "rgb(252, 140, 99)"
+                  },
+                  {
+                    "value": "rgb(252, 244, 182)"
+                  }
+                ]
+              },
+              {
+                "name": "Cool",
+                "alias": "Cool",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(110, 64, 170)"
+                  },
+                  {
+                    "value": "rgb(35, 171, 216)"
+                  },
+                  {
+                    "value": "rgb(166, 241, 89)"
+                  }
+                ]
+              },
+              {
+                "name": "Blues",
+                "alias": "Blues",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": true,
+                "colors": [
+                  {
+                    "value": "rgb(247, 251, 255)"
+                  },
+                  {
+                    "value": "rgb(123, 182, 217)"
+                  },
+                  {
+                    "value": "rgb(8, 49, 108)"
+                  }
+                ]
+              },
+              {
+                "name": "Greys",
+                "alias": "Greys",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(255, 255, 255)"
+                  },
+                  {
+                    "value": "rgb(161, 161, 161)"
+                  },
+                  {
+                    "value": "rgb(1, 1, 1)"
+                  }
+                ]
+              },
+              {
+                "name": "Greens",
+                "alias": "Greens",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(247, 252, 245)"
+                  },
+                  {
+                    "value": "rgb(129, 202, 130)"
+                  },
+                  {
+                    "value": "rgb(0, 69, 27)"
+                  }
+                ]
+              },
+              {
+                "name": "Reds",
+                "alias": "Reds",
+                "edit": false,
+                "new": false,
+                "isReversed": false,
+                "selected": false,
+                "colors": [
+                  {
+                    "value": "rgb(255, 245, 240)"
+                  },
+                  {
+                    "value": "rgb(251, 117, 86)"
+                  },
+                  {
+                    "value": "rgb(104, 0, 13)"
+                  }
+                ]
+              }
+            ],
+            "bubblecolorpalette": "qlik100",
+            "colors": {
+              "reverse": false,
+              "persistent": false
+            },
+            "colorPaletteCustom": "#4477aa,#7db8da,#b6d7ea,#46c646,#f93f17,#ffcf02,#b0afae,#7b7a78,#545352",
+            "custombubblecolor": "='#3C43B7'",
+            "bubbleopacity": 0.5,
+            "showgrid": true,
+            "gridstyle": "dash",
+            "gridcolor": "#d4d4d4",
+            "gridopacity": 0.9,
+            "gridthickness": 1,
+            "useClustering": true,
+            "enableClusterVariables": true,
+            "clusteringAlgo": "kmeans",
+            "kMeansClustersSlider": {
+              "qValueExpression": {
+                "qExpr": "=3"
+              }
+            },
+            "kMeansClusters": {
+              "qValueExpression": {
+                "qExpr": "=3"
+              }
+            },
+            "dbscanEpsSlider": 1.4,
+            "dbscanEps": 1.4,
+            "dbscanMinPtsSlider": 5,
+            "dbscanMinPts": 5,
+            "enableClustersAreaGroups": true,
+            "areaOpacitySlider": 0.4,
+            "areaOpacity": 0.4,
+            "showTitles": true,
+            "title": {
+              "qStringExpression": {
+                "qExpr": "'Clientes agrupado por Tiempo desde la ultima compra y probabilidad de abandono (k-means)'"
+              }
+            },
+            "subtitle": "",
+            "footnote": "",
+            "disableNavMenu": false,
+            "showDetails": false,
+            "showDetailsExpression": false,
+            "showdimtitle": true,
+            "dimcolor": "#ffffff",
+            "dimlabelfontsize": 14,
+            "dimlabelfontsizeSlider": 14,
+            "dimlabelfontfamily": "\"QlikView Sans\", sans-serif",
+            "dimlabelcustomfontfamily": "<Type in your Font Name>",
+            "dimlabelfontstyle": "",
+            "dimAltBadge": false,
+            "dimBreadcrumbs": false,
+            "disablexaxis": false,
+            "disablexaxisbottomlabels": false,
+            "xlabel": "",
+            "xaxiscolor": "#ffffff",
+            "xfontsize": 13,
+            "xthickness": 1,
+            "xlabelfontsize": 14,
+            "xlabelfontsizeslider": 14,
+            "xlabelfontfamily": "\"QlikView Sans\", sans-serif",
+            "xlabelcustomfontfamily": "<Type in your Font Name>",
+            "xlabelfontstyle": "",
+            "xlabeldropshadow": false,
+            "xticks": 6,
+            "xscaleticks": "linear",
+            "xtickformat": "auto",
+            "xticknegativeformat": "symbol",
+            "xTickCurrencyEnabled": false,
+            "xTickCurrency": "$",
+            "xTickCurrencyPosition": "prefix",
+            "xrange": "auto",
+            "xmin": 0,
+            "xmax": 40,
+            "disablexaxislabels": false,
+            "xnice": true,
+            "xaxiszeroref": true,
+            "xAxisMargin": 0.2,
+            "disableyaxis": false,
+            "disableyaxisleftlabels": false,
+            "ylabel": "",
+            "yaxiscolor": "#ffffff",
+            "yfontsize": 13,
+            "ythickness": 1,
+            "ylabelfontsize": 14,
+            "ylabelfontsizeSlider": 14,
+            "ylabelfontfamily": "\"QlikView Sans\", sans-serif",
+            "ylabelcustomfontfamily": "<Type in your Font Name>",
+            "ylabelfontstyle": "",
+            "ylabeldropshadow": false,
+            "yticks": 4,
+            "yscaleticks": "linear",
+            "ytickformat": "auto",
+            "yticknegativeformat": "",
+            "yTickCurrencyEnabled": false,
+            "yTickCurrency": "$",
+            "yTickCurrencyPosition": "prefix",
+            "yrange": "auto",
+            "ymin": 0,
+            "ymax": 40,
+            "disableyaxislabels": false,
+            "ynice": true,
+            "yaxiszeroref": true,
+            "yAxisMargin": 0.2,
+            "isVizlibContextMenuEnabled": false,
+            "vAllowSelections": true,
+            "vQuickSelection": false,
+            "vEnableLasso": true,
+            "vEnableBrushing": false,
+            "enabledSnailTrailOnClick": false,
+            "vEnableInteractiveZoom": true,
+            "vInteractiveZoomStyle": "fit",
+            "vInteractiveZoomIn": "100",
+            "vInteractiveZoomOut": "1",
+            "vInteractiveZoomMinXPercent": "20",
+            "vInteractiveZoomMaxXPercent": "20",
+            "vInteractiveZoomMinYPercent": "20",
+            "vInteractiveZoomMaxYPercent": "20",
+            "vInteractiveZoomMinXAbsolute": "",
+            "vInteractiveZoomMaxXAbsolute": "",
+            "vInteractiveZoomMinYAbsolute": "",
+            "vInteractiveZoomMaxYAbsolute": "",
+            "vShowTooltip": true,
+            "vShowGuideLines": true,
+            "measureAltBadge": true,
+            "hideCutText": true,
+            "measureBreadcrumbs": true,
+            "showfullscreen": true,
+            "showsnapshot": true,
+            "downloadingData": "onlyInitial",
+            "maxRecords": "2000",
+            "props": {
+              "alternateState": "",
+              "about": ""
+            },
+            "as": {
+              "showASIcon": true
+            },
+            "visualization": "VizlibScatterChart",
+            "version": "3.8.0",
+            "extensionMeta": {
+              "translationKey": "",
+              "icon": "scatter-chart",
+              "iconChar": "puzzle",
+              "isLibraryItem": true,
+              "visible": true,
+              "name": " Vizlib Scatter Chart v3.8.0",
+              "description": "Classic Scatter Chart which includes majority of QlikView functionality with extended formatting options and HTML support.",
+              "template": "VizlibScatterChart",
+              "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+              "isThirdParty": true,
+              "type": "visualization",
+              "preview": "VizlibScatterChart.png",
+              "author": "Vizlib ltd.",
+              "version": "3.8.0",
+              "bundle": {
+                "id": "vizlib-bundle",
+                "name": "Vizlib Library",
+                "description": "Vizlib is an advanced extension library for Qlik Sense offering a better way to communicate data by leveraging vizualisations, tables and control components. ........................................................... www.vizlib.com"
+              },
+              "homepage": "Vizlib.com",
+              "email": "support@vizlib.com",
+              "keywords": "qlik-sense, visualization",
+              "license": "2017 © Vizlib Ltd. - All rights reserved.",
+              "tc": "http://www.vizlib.com/termsandconditions/",
+              "repository": "",
+              "dependencies": {
+                "qlik-sense": ">=3.0.x"
+              },
+              "previewIconURL": "https://qst.syngenta.com/extensions/VizlibScatterChart/VizlibScatterChart.png"
+            },
+            "qLayoutExclude": {
+              "disabled": {},
+              "quarantine": {}
+            },
+            "containerChildId": "AUHzJA",
+            "labelBubblefontColorPicker": {
+              "color": "#545352",
+              "index": -1
+            },
+            "bubbleColorBorderPicker": {
+              "color": "#000",
+              "index": -1
+            },
+            "bubbleFillPicker": {
+              "color": "#000",
+              "index": -1
+            },
+            "custombubblecolorPicker": {
+              "color": "#3C43B7",
+              "index": -1
+            },
+            "gridcolorPicker": {
+              "color": "#d4d4d4",
+              "index": -1
+            },
+            "regressionColorPicker": {
+              "color": "#000",
+              "index": -1
+            },
+            "dimcolorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "xaxiscolorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "yaxiscolorPicker": {
+              "index": -1,
+              "color": "#ffffff"
+            },
+            "xAxisPosition": "bottom",
+            "yAxisPosition": "left"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "YSaCYj",
+          "qType": "map"
+        },
+        "qMetaDef": {},
+        "gaLayers": [
+          {
+            "type": "AreaLayer",
+            "locationOrLatitude": {
+              "label": "Estados",
+              "key": "=Estado",
+              "type": "expression"
+            },
+            "locationDefault": "[Estados]",
+            "locationNamesAuto": true,
+            "locationType": "",
+            "locationCountry": {
+              "key": "",
+              "label": "",
+              "type": ""
+            },
+            "locationAdmin1": {
+              "key": "",
+              "label": "",
+              "type": ""
+            },
+            "locationAdmin2": {
+              "key": "",
+              "label": "",
+              "type": ""
+            },
+            "maxObjects": 1000,
+            "showLayer": true,
+            "hideCalcCond": false,
+            "exclFromAutozoom": false,
+            "layerSelectionsDisabled": false,
+            "color": {
+              "outline": {
+                "index": -1,
+                "color": "#000000"
+              },
+              "outlineOpacity": 0.9,
+              "opacity": 1,
+              "auto": false,
+              "mode": "byMeasure",
+              "paletteColor": {
+                "index": 2,
+                "color": "#46c646"
+              },
+              "measureScheme": "dg",
+              "dimensionScheme": "100",
+              "colorExpression": "",
+              "expressionIsColor": false,
+              "measureMin": 0,
+              "measureMax": 10,
+              "useDimColVal": false,
+              "useMeasureGradient": false,
+              "altLabel": {
+                "qStringExpression": {
+                  "qExpr": "='Numero de abandonos estimados'"
+                }
+              },
+              "byDimDef": {
+                "label": "Probabilidad",
+                "key": "Rank(proba_last)",
+                "type": "expression"
+              },
+              "persistent": true,
+              "byMeasureDef": {
+                "label": "=='Numero de abandonos estimados'",
+                "key": "=Sum(Best_Model)",
+                "type": "expression"
+              }
+            },
+            "displayLegend": "auto",
+            "showSizeLegend": true,
+            "showToolTip": true,
+            "showInAllLevels": true,
+            "zoomRange": [
+              0,
+              20
+            ],
+            "showPopUp": "custom",
+            "displayUnselected": false,
+            "label": {
+              "show": false,
+              "expression": {
+                "key": "[Estados]",
+                "label": "dimension.qDef.qFieldDefs[0]",
+                "type": "expression"
+              },
+              "position": "TOP",
+              "showInAllLevels": true,
+              "visibleRange": [
+                0,
+                20
+              ],
+              "style": {
+                "color": {
+                  "index": -1,
+                  "color": ""
+                }
+              }
+            },
+            "drillDown": {
+              "auto": true,
+              "showLevel0": true,
+              "showLevel1": true,
+              "showLevel2": true,
+              "showLevel3": true,
+              "showLevel4": true,
+              "showLevel5": true,
+              "showLevel6": true,
+              "showLevel7": true
+            },
+            "qHyperCubeDef": {
+              "qDimensions": [
+                {
+                  "qDef": {
+                    "qGrouping": "N",
+                    "qFieldDefs": [
+                      "Estado"
+                    ],
+                    "qFieldLabels": [
+                      ""
+                    ],
+                    "qSortCriterias": [
+                      {
+                        "qSortByNumeric": 1,
+                        "qSortByAscii": 1,
+                        "qSortByLoadOrder": 1,
+                        "qExpression": {}
+                      }
+                    ],
+                    "qNumberPresentations": [],
+                    "qActiveField": 0,
+                    "autoSort": true,
+                    "cId": "kgXdNdh"
+                  },
+                  "qOtherTotalSpec": {
+                    "qOtherMode": "OTHER_OFF",
+                    "qOtherCounted": {},
+                    "qOtherLimit": {},
+                    "qOtherLimitMode": "OTHER_GT_LIMIT",
+                    "qForceBadValueKeeping": true,
+                    "qApplyEvenWhenPossiblyWrongResult": true,
+                    "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                    "qTotalMode": "TOTAL_OFF",
+                    "qReferencedExpression": {}
+                  },
+                  "qOtherLabel": {},
+                  "qTotalLabel": {},
+                  "qCalcCond": {},
+                  "qAttributeExpressions": [
+                    {
+                      "qExpression": "=Sum(Best_Model)",
+                      "id": "colorByAlternative",
+                      "label": "=='Numero de abandonos estimados'"
+                    }
+                  ],
+                  "qAttributeDimensions": [],
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "$$hashKey": "object:14006"
+                }
+              ],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [
+                0
+              ],
+              "qInitialDataFetch": [
+                {
+                  "qLeft": 0,
+                  "qTop": 0,
+                  "qWidth": 1,
+                  "qHeight": 0
+                }
+              ],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": [],
+              "qLayoutExclude": {
+                "qHyperCubeDef": {
+                  "qDimensions": [],
+                  "qMeasures": [],
+                  "qInterColumnSortOrder": [],
+                  "qInitialDataFetch": [],
+                  "qReductionMode": "N",
+                  "qMode": "S",
+                  "qPseudoDimPos": -1,
+                  "qNoOfLeftDims": -1,
+                  "qMaxStackedCells": 5000,
+                  "qCalcCond": {},
+                  "qTitle": {},
+                  "qCalcCondition": {
+                    "qCond": {},
+                    "qMsg": {}
+                  },
+                  "qColumnOrder": [],
+                  "qExpansionState": [],
+                  "qDynamicScript": []
+                }
+              }
+            },
+            "tooltip": {
+              "auto": true,
+              "title": "",
+              "description": "",
+              "chart": {
+                "object": {
+                  "refId": "42df9683-290b-4667-a551-ec709deae82f"
+                },
+                "style": {
+                  "size": "medium"
+                }
+              }
+            },
+            "cId": "amGgNG",
+            "id": "amGgNG"
+          }
+        ],
+        "mapSettings": {
+          "_layerType": "",
+          "baseMap": "empty",
+          "projection": "empty",
+          "mapLanguage": "auto",
+          "useImperialUnits": false,
+          "selectionType": "lasso",
+          "initialView": null,
+          "showLegend": true,
+          "sidebarAlignment": "auto",
+          "showFindLocationButton": false,
+          "showScaleBar": true,
+          "zoomLimitSwitch": false,
+          "zoomLimit": {
+            "range": [
+              0,
+              20
+            ]
+          },
+          "panLimitSwitch": false,
+          "panLimits": null,
+          "showDebugInfo": false,
+          "labelColoring": "auto"
+        },
+        "autoZoomOnSelection": true,
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "navigation": false,
+        "visualization": "map",
+        "gaVersion": 2,
+        "layers": [],
+        "qUndoExclude": {
+          "hashCode": -2120579230,
+          "gaLayers": [
+            {
+              "qHyperCubeDef": {
+                "qDimensions": [
+                  {
+                    "qDef": {
+                      "qGrouping": "N",
+                      "qFieldDefs": [
+                        "Estado"
+                      ],
+                      "qFieldLabels": [
+                        ""
+                      ],
+                      "qSortCriterias": [
+                        {
+                          "qSortByNumeric": 1,
+                          "qSortByAscii": 1,
+                          "qSortByLoadOrder": 1,
+                          "qExpression": {}
+                        }
+                      ],
+                      "qNumberPresentations": [],
+                      "qActiveField": 0,
+                      "autoSort": true,
+                      "cId": "kgXdNdh"
+                    },
+                    "qOtherTotalSpec": {
+                      "qOtherMode": "OTHER_OFF",
+                      "qOtherCounted": {},
+                      "qOtherLimit": {},
+                      "qOtherLimitMode": "OTHER_GT_LIMIT",
+                      "qForceBadValueKeeping": true,
+                      "qApplyEvenWhenPossiblyWrongResult": true,
+                      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                      "qTotalMode": "TOTAL_OFF",
+                      "qReferencedExpression": {}
+                    },
+                    "qOtherLabel": {},
+                    "qTotalLabel": {},
+                    "qCalcCond": {},
+                    "qAttributeExpressions": [
+                      {
+                        "qExpression": "=Sum(Best_Model)",
+                        "id": "colorByAlternative",
+                        "label": "=='Numero de abandonos estimados'"
+                      }
+                    ],
+                    "qAttributeDimensions": [],
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "$$hashKey": "object:14006"
+                  }
+                ],
+                "qMeasures": [],
+                "qInterColumnSortOrder": [
+                  0
+                ],
+                "qInitialDataFetch": [
+                  {
+                    "qLeft": 0,
+                    "qTop": 0,
+                    "qWidth": 1,
+                    "qHeight": 1000
+                  }
+                ],
+                "qReductionMode": "N",
+                "qMode": "S",
+                "qPseudoDimPos": -1,
+                "qNoOfLeftDims": -1,
+                "qMaxStackedCells": 5000,
+                "qCalcCond": {},
+                "qTitle": {},
+                "qCalcCondition": {
+                  "qCond": {},
+                  "qMsg": {}
+                },
+                "qColumnOrder": [],
+                "qExpansionState": [],
+                "qDynamicScript": [],
+                "qLayoutExclude": {
+                  "qHyperCubeDef": {
+                    "qDimensions": [],
+                    "qMeasures": [],
+                    "qInterColumnSortOrder": [],
+                    "qInitialDataFetch": [],
+                    "qReductionMode": "N",
+                    "qMode": "S",
+                    "qPseudoDimPos": -1,
+                    "qNoOfLeftDims": -1,
+                    "qMaxStackedCells": 5000,
+                    "qCalcCond": {},
+                    "qTitle": {},
+                    "qCalcCondition": {
+                      "qCond": {},
+                      "qMsg": {}
+                    },
+                    "qColumnOrder": [],
+                    "qExpansionState": [],
+                    "qDynamicScript": []
+                  }
+                }
+              },
+              "color": {
+                "outline": {
+                  "index": -1,
+                  "color": "#000000"
+                },
+                "outlineOpacity": 0.9,
+                "opacity": 1,
+                "auto": false,
+                "mode": "byMeasure",
+                "paletteColor": {
+                  "index": 2,
+                  "color": "#46c646"
+                },
+                "measureScheme": "dg",
+                "dimensionScheme": "100",
+                "colorExpression": "",
+                "expressionIsColor": false,
+                "measureMin": 0,
+                "measureMax": 10,
+                "useDimColVal": false,
+                "useMeasureGradient": false,
+                "altLabel": {
+                  "qStringExpression": {
+                    "qExpr": "='Numero de abandonos estimados'"
+                  }
+                },
+                "byDimDef": {
+                  "label": "Probabilidad",
+                  "key": "Rank(proba_last)",
+                  "type": "expression"
+                },
+                "persistent": true,
+                "byMeasureDef": {
+                  "label": "=='Numero de abandonos estimados'",
+                  "key": "=Sum(Best_Model)",
+                  "type": "expression"
+                }
+              },
+              "useDimLoc1": 0
+            }
+          ]
+        },
+        "components": [
+          {
+            "key": "general"
+          }
+        ]
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "EZLKua",
+          "qType": "treemap"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=bp_id&'-'&[Cliente_Descripción]"
+                ],
+                "qFieldLabels": [
+                  "Cliente"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "JbUwmR",
+                "othersLabel": "Otros"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Otros"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [
+                {
+                  "qDef": "=Churn",
+                  "qSortBy": {
+                    "qSortByAscii": 1,
+                    "qExpression": {}
+                  },
+                  "qAttribute": true,
+                  "id": "colorByAlternative",
+                  "label": "Churn"
+                }
+              ],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Otros",
+              "$$hashKey": "object:181194"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Probabilidad de abandono",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Sum(proba_Best)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qDec": ".",
+                  "qThou": ","
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "ESCge",
+                "numFormatFromTemplate": true,
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "$$hashKey": "object:174094"
+            }
+          ],
+          "qInterColumnSortOrder": [
+            1,
+            0
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 30,
+              "qHeight": 3000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "K",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 3000,
+          "qShowTotalsAbove": true,
+          "qIndentMode": true,
+          "qCalcCond": {},
+          "qSortbyYValue": -1,
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "script": "",
+        "showTitles": false,
+        "title": "Sold To",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "showDisclaimer": true,
+        "color": {
+          "auto": false,
+          "mode": "byDimension",
+          "formatting": {
+            "numFormatFromTemplate": true
+          },
+          "useBaseColors": "off",
+          "paletteColor": {
+            "index": 6
+          },
+          "useDimColVal": true,
+          "useMeasureGradient": true,
+          "persistent": true,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "sg",
+          "reverseScheme": false,
+          "dimensionScheme": "qual-chartist",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "altLabel": "Churn",
+          "byMeasureDef": {
+            "label": "Churn",
+            "key": "Sum(p)",
+            "type": "expression"
+          },
+          "byDimDef": {
+            "label": "Churn",
+            "key": "=Churn",
+            "type": "expression"
+          }
+        },
+        "legend": {
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "tooltip": {
+          "auto": true,
+          "hideBasic": false,
+          "chart": {
+            "style": {
+              "size": "medium"
+            }
+          },
+          "data": {}
+        },
+        "visualization": "treemap",
+        "qLayoutExclude": {
+          "quarantine": {
+            "supportedAutoMinMax": {
+              "measureAxis.min": 0,
+              "measureAxis.max": 10
+            }
+          },
+          "disabled": {
+            "qExtendsId": "",
+            "refLine": {
+              "refLines": [],
+              "dimRefLines": []
+            },
+            "barGrouping": {
+              "grouping": "grouped"
+            },
+            "orientation": "vertical",
+            "scrollbar": "miniChart",
+            "scrollStartPos": 0,
+            "gridLine": {
+              "auto": true,
+              "spacing": 2
+            },
+            "dataPoint": {
+              "showLabels": false,
+              "showSegmentLabels": false,
+              "showTotalLabels": true
+            },
+            "dimensionAxis": {
+              "continuousAuto": true,
+              "show": "all",
+              "label": "auto",
+              "dock": "near",
+              "axisDisplayMode": "auto",
+              "maxVisibleItems": 10
+            },
+            "preferContinuousAxis": true,
+            "measureAxis": {
+              "show": "all",
+              "dock": "near",
+              "spacing": 1,
+              "autoMinMax": true,
+              "minMax": "min",
+              "min": 0,
+              "max": 10
+            },
+            "version": "1.23.12",
+            "components": [],
+            "showMiniChartForContinuousAxis": true,
+            "containerChildId": "gVTJHw",
+            "isRecommended": true,
+            "recommendation": {
+              "options": {},
+              "analysis": {
+                "analysis": "rank",
+                "analysisGroup": "rank",
+                "description": {
+                  "short": "Ranking",
+                  "long": "Muestra las dimensiones por orden de contribución."
+                },
+                "title": "Sum y por Cliente_Descripción",
+                "titleTemplate": [
+                  {
+                    "msgId": "cao.chart.rank.2.title",
+                    "msgParams": {
+                      "$$1": 1,
+                      "$$2": 0
+                    }
+                  }
+                ],
+                "dims": [
+                  {
+                    "expr": "[Cliente_Descripción]",
+                    "cType": "eField",
+                    "field": "Cliente_Descripción",
+                    "fieldStats": {
+                      "distinctCount": 556,
+                      "dataType": "string"
+                    }
+                  }
+                ],
+                "msrs": [
+                  {
+                    "expr": "=Sum([y])",
+                    "cType": "eField",
+                    "field": "y",
+                    "fieldStats": {
+                      "dataType": "integer",
+                      "valueRange": {
+                        "min": 0,
+                        "max": 1
+                      },
+                      "classification": [
+                        "measure"
+                      ]
+                    }
+                  }
+                ],
+                "colorByExpr": {
+                  "expr": "=Sum([y])",
+                  "byMeasure": true,
+                  "measureScheme": "sg",
+                  "reverseScheme": true,
+                  "label": "y",
+                  "cType": "eField",
+                  "field": "y",
+                  "basedOns": [
+                    "$$2"
+                  ]
+                }
+              },
+              "isExtendedAnalysis": false,
+              "matchRecord": {
+                "analysisPrecedentId": "P-Rank",
+                "matches": [
+                  {
+                    "slot": "$$1",
+                    "slotRole": "dimension",
+                    "field": "Cliente_Descripción"
+                  },
+                  {
+                    "slot": "$$2",
+                    "slotRole": "measure",
+                    "field": "y",
+                    "aggr": "Sum",
+                    "overallAggr": "Sum"
+                  }
+                ],
+                "parameters": [
+                  {
+                    "name": "favourableTrend",
+                    "type": "oneOfOptions",
+                    "options": [
+                      {
+                        "value": "up",
+                        "msgId": "cao.macroAnalysis.parameters.favourableTrend.up",
+                        "localizedMsg": "Ascendente"
+                      },
+                      {
+                        "value": "down",
+                        "msgId": "cao.macroAnalysis.parameters.favourableTrend.down",
+                        "localizedMsg": "Descendente"
+                      }
+                    ],
+                    "default": "up",
+                    "msgId": "cao.macroAnalysis.parameters.favourableTrend",
+                    "value": "up",
+                    "localizedMsg": "Tendencia favorable"
+                  }
+                ],
+                "precedentStats": {
+                  "matchedFields": 0,
+                  "uniquePrecedents": 0
+                }
+              },
+              "relevance": 1,
+              "analysisIntentRelevance": 0.09000000000000001
+            }
+          }
+        },
+        "labels": {
+          "auto": true,
+          "headers": true,
+          "overlay": true,
+          "leaves": true,
+          "values": false
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "LDMnx",
+          "qType": "action-button"
+        },
+        "qMetaDef": {},
+        "actions": [
+          {
+            "actionLabel": "",
+            "actionType": "",
+            "bookmark": "",
+            "field": "",
+            "variable": "",
+            "showSystemVariables": false,
+            "softLock": false,
+            "value": "",
+            "partial": false,
+            "cId": "FUDsy"
+          }
+        ],
+        "navigation": {
+          "action": "none",
+          "appId": "",
+          "sheet": "2cc9a7d0-cd6a-41e6-a198-cabea23a350b",
+          "story": "",
+          "websiteUrl": "",
+          "sameWindow": false,
+          "odagLink": ""
+        },
+        "useEnabledCondition": false,
+        "enabledCondition": 1,
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "style": {
+          "label": "",
+          "font": {
+            "size": 1,
+            "useColorExpression": false,
+            "color": {
+              "index": -1,
+              "color": "#fcfeff"
+            },
+            "colorExpression": "",
+            "style": {
+              "bold": false,
+              "italic": false,
+              "underline": false
+            },
+            "align": "left"
+          },
+          "background": {
+            "useColorExpression": false,
+            "color": {
+              "index": 1,
+              "color": "#323b44"
+            },
+            "colorExpression": "",
+            "useImage": true,
+            "size": "alwaysFit",
+            "position": "centerCenter",
+            "url": {
+              "qStaticContentUrlDef": {
+                "qUrl": "/appcontent/94b592f3-9f7b-4c6c-b9eb-16aaece49f84/Syngenta blanco.png"
+              }
+            }
+          },
+          "border": {
+            "useBorder": true,
+            "radius": 0.33,
+            "width": 0.24,
+            "useColorExpression": false,
+            "color": {
+              "index": -1,
+              "color": "#fcfeff"
+            },
+            "colorExpression": ""
+          },
+          "icon": {
+            "useIcon": false,
+            "iconType": "triangle-bottom",
+            "position": "left"
+          }
+        },
+        "visualization": "action-button",
+        "version": "1.27.0"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "aDCyEe",
+          "qType": "qlik-variable-input"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "Churn Estimado",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "variableName": "vEleccion",
+        "render": "b",
+        "buttonMode": "colfill",
+        "updateondrag": false,
+        "valueType": "x",
+        "dynamicvalues": {
+          "qStringExpression": {
+            "qExpr": "='Selecciona un modelo|linear_regression|KNN|Random_Forest|MLP|Best_Model'"
+          }
+        },
+        "alternatives": [
+          {
+            "value": "0",
+            "label": "Proba Abandono",
+            "cId": "xCdpLC"
+          },
+          {
+            "value": "1",
+            "label": "Proba No abandono",
+            "cId": "pcQLhu"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "qlik-variable-input",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=\"vEleccion\""
+          }
+        },
+        "style": "qlik",
+        "version": "6.20.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "control",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable input",
+          "description": "A control that assigns a value to a variable.\nVersion: 6.20.0",
+          "template": "qlik-variable-input",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "6.20.0",
+          "preview": "preview.png",
+          "keywords": "qlik-sense, visualization",
+          "author": "Erik Wetterberg upper88.com",
+          "homepage": "https://github.com/erikwett/qsVariable",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=5.5.x"
+          },
+          "contributors": [
+            "Brett Farley contextbi.com"
+          ],
+          "bundle": {
+            "id": "qlik-dashboard-bundle",
+            "name": "Qlik Dashboard bundle",
+            "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A date picker, a variable input, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+          },
+          "installer": "QlikExtensionBundler",
+          "previewIconURL": "https://qst.syngenta.com/extensions/qlik-variable-input/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "FfmMydV",
+          "qType": "qlik-variable-input"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "Churn Estimado",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "variableName": "vModelo",
+        "render": "s",
+        "buttonMode": "rowfill",
+        "updateondrag": false,
+        "valueType": "d",
+        "dynamicvalues": {
+          "qStringExpression": {
+            "qExpr": "='Selecciona un modelo|linear_regression|KNN|Random_Forest|MLP|Best_Model'"
+          }
+        },
+        "alternatives": [],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "qlik-variable-input",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=\"vModelo\""
+          }
+        },
+        "style": "qlik",
+        "version": "6.20.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "control",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable input",
+          "description": "A control that assigns a value to a variable.\nVersion: 6.20.0",
+          "template": "qlik-variable-input",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "6.20.0",
+          "preview": "preview.png",
+          "keywords": "qlik-sense, visualization",
+          "author": "Erik Wetterberg upper88.com",
+          "homepage": "https://github.com/erikwett/qsVariable",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=5.5.x"
+          },
+          "contributors": [
+            "Brett Farley contextbi.com"
+          ],
+          "bundle": {
+            "id": "qlik-dashboard-bundle",
+            "name": "Qlik Dashboard bundle",
+            "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A date picker, a variable input, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+          },
+          "installer": "QlikExtensionBundler",
+          "previewIconURL": "https://qst.syngenta.com/extensions/qlik-variable-input/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "zVQmSJ",
+          "qType": "qlik-variable-input"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "Probabilidad de Churn",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "variableName": "vProbabilidades",
+        "render": "s",
+        "buttonMode": "rowfill",
+        "updateondrag": false,
+        "valueType": "d",
+        "dynamicvalues": {
+          "qStringExpression": {
+            "qExpr": "='Selecciona un modelo|proba_lr|proba_knn|proba_rf|proba_MLP|proba_Best'"
+          }
+        },
+        "alternatives": [],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "qlik-variable-input",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=\"vProbabilidades\""
+          }
+        },
+        "style": "qlik",
+        "version": "6.20.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "control",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable input",
+          "description": "A control that assigns a value to a variable.\nVersion: 6.20.0",
+          "template": "qlik-variable-input",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "6.20.0",
+          "preview": "preview.png",
+          "keywords": "qlik-sense, visualization",
+          "author": "Erik Wetterberg upper88.com",
+          "homepage": "https://github.com/erikwett/qsVariable",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=5.5.x"
+          },
+          "contributors": [
+            "Brett Farley contextbi.com"
+          ],
+          "bundle": {
+            "id": "qlik-dashboard-bundle",
+            "name": "Qlik Dashboard bundle",
+            "description": "This is a set of supported objects that will facilitate dashboard creation in Qlik Sense: A date picker, a variable input, a demand-reporting button and a share button. These can be used in addition to the objects found under \"Charts\".\n\nFor limitations and support conditions, see the documentation."
+          },
+          "installer": "QlikExtensionBundler",
+          "previewIconURL": "https://qst.syngenta.com/extensions/qlik-variable-input/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "bekbqK",
+          "qType": "VizlibSheetMenu"
+        },
+        "qMetaDef": {},
+        "search": "",
+        "isDefaultTemplateApplied": true,
+        "topMenu": {
+          "show": true,
+          "use": true,
+          "elements": [
+            {
+              "sheetId": "481c4c9d-3a01-4075-a8d6-cda31d168a32",
+              "elementType": "Sheet",
+              "displayName": "Introducción",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 4,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "12da0cfb-5900-4e21-9c22-4b7fc203a993",
+              "elementType": "Sheet",
+              "displayName": "Facturación",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 5,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "48895209-d084-4571-8396-6b2a6f001bf9",
+              "elementType": "Sheet",
+              "displayName": "Background",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 6,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "ad786300-eda8-47a5-9f42-3a033c5e2296",
+              "elementType": "Sheet",
+              "displayName": "Churn",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 8,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            },
+            {
+              "sheetId": "15e2b8df-ac73-4602-bb2b-a3d207823775",
+              "elementType": "Sheet",
+              "displayName": "Resultados",
+              "isIconEnabled": false,
+              "icon": "fa-file-o",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 3,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                },
+                "show": true,
+                "fontColor": "#595959",
+                "fontSize": 13,
+                "customFontFamily": "",
+                "backgroundColor": "#ffffff",
+                "fontItalic": "normal",
+                "fontWeight": "bold",
+                "fontUnderline": "none",
+                "fontFamily": "\"QlikView Sans\", sans-serif",
+                "spacingWidth": 8
+              },
+              "inherit": true,
+              "action": [],
+              "order": 0,
+              "level": 1,
+              "autoHeightMode": false,
+              "height": 50,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              },
+              "condition": "1",
+              "vzbActionsOnSheetExit": []
+            }
+          ]
+        },
+        "logo": {
+          "show": true,
+          "useMedia": true,
+          "image": "/appcontent/9f1c1bc6-2a66-4b14-bc1a-ae0820562613/Syngenta_Logo.svg.png",
+          "url": "",
+          "stretchMode": "scale",
+          "width": 400,
+          "height": 26,
+          "opacity": 1,
+          "position": {
+            "top": 8,
+            "left": 0
+          },
+          "actions": []
+        },
+        "showTitle": false,
+        "customTitle": "current",
+        "appTitle": "Title",
+        "menu": {
+          "titleFontColorPicker": {
+            "color": "#323232"
+          },
+          "titleFontColor": "#323232",
+          "titleFontSizeSlider": 20,
+          "titleFontSize": 20,
+          "topBarHeight": 42,
+          "backgroundColorPicker": {
+            "color": "#ffffff",
+            "index": -1
+          },
+          "backgroundColor": "#ffffff",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "enableResponsiveness": false,
+          "breadcrumbsElements": true,
+          "breadcrumbSeparator": "triangle",
+          "breadcrumbSize": "medium",
+          "breadcrumbFontSize": 14,
+          "breadcrumbFontSizeSlider": 13,
+          "breadcrumbFontColorPicker": {
+            "color": "#323232"
+          },
+          "breadcrumbFontColor": "#323232",
+          "breadcrumbActiveFontColorPicker": {
+            "color": "#323232",
+            "index": -1
+          },
+          "breadcrumbActiveFontColor": "#323232",
+          "breadcrumbBackgroundColorPicker": {
+            "color": "#FFFFFF",
+            "index": -1
+          },
+          "breadcrumbBackgroundColor": "#FFFFFF",
+          "breadcrumbActiveBackgroundColorPicker": {
+            "color": "#ffffff",
+            "index": -1
+          },
+          "breadcrumbActiveBackgroundColor": "#ffffff",
+          "breadcrumbBorderEnabled": false,
+          "breadcrumbBorderColorPicker": {
+            "color": "#323232",
+            "index": -1
+          },
+          "breadcrumbBorderColor": "#323232",
+          "breadcrumbBorderStyle": "solid",
+          "breadcrumbBorderWidth": 0,
+          "breadcrumbBorderRadiusSlider": 0,
+          "breadcrumbBorderRadius": 0,
+          "breadcrumbWidthSlider": 300,
+          "breadcrumbWidth": 300,
+          "showTitleInMobile": false,
+          "customMobileHeight": false,
+          "customMobileMenuButtons": false,
+          "customExtensionHeightPortrait": 300,
+          "customExtensionWidthLandscape": 300
+        },
+        "topMenuMaker": false,
+        "responsiveElements": "both",
+        "newNavigationIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--menu",
+              "icon": "fa-chevron-circle-left",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "navigationIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--compass",
+              "icon": "fa-caret-square-o-down",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "toolbarIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--settings",
+              "icon": "fa-server",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "saveIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "",
+              "icon": "fa-save",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Save",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "storiesIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--slide-show",
+              "icon": "fa-film",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "editSheetMenuIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--reload",
+              "icon": "fa-crosshairs",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "bookmarksIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--bookmark",
+              "icon": "fa-bookmark",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "editIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--edit",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Edit",
+              "editModeText": "Done",
+              "editModeColorPicker": {
+                "color": "#282828",
+                "index": -1
+              },
+              "editModeColor": "#282828",
+              "editModeFontColorPicker": {
+                "color": "#ffffff"
+              },
+              "editModeFontColor": "#ffffff",
+              "colorPicker": {
+                "color": "#ffffff"
+              },
+              "color": "#ffffff"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "sheetsIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--sheet",
+              "icon": "fa-list-alt",
+              "horizontalAlignment": "center",
+              "customTitle": false,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "previousSheetIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--previous",
+              "icon": "fa-chevron-left",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "nextSheetIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--next",
+              "icon": "fa-chevron-right",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "application": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--more",
+              "icon": "fa-ellipsis-h",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "duplicateIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--copy",
+              "icon": "fa-copy",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Duplicate",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "sideMenuIcon": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": false,
+              "nativeIcon": "lui-icon--menu",
+              "icon": "fa-filter",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "Filtro",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "customButtonsArray": [],
+        "customText": {
+          "enable": false,
+          "text": "Type text...",
+          "fontColorPicker": {
+            "color": "#323232"
+          },
+          "fontColor": "#323232",
+          "fontSizeSlider": 20,
+          "fontSize": 20
+        },
+        "selectionMenu": {
+          "enable": true,
+          "leftPadding": 0,
+          "sticked": false
+        },
+        "stepBack": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--selections-back",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "stepForward": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--selections-forward",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "clearSelection": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--clear-selections",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "navSearch": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--search",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "subToolbar": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--selections-tool",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "insights": {
+          "editModeSettings": {
+            "defaultSettings": {
+              "enable": true,
+              "enableCondition": 1,
+              "enableNative": true,
+              "nativeIcon": "lui-icon--analyze",
+              "icon": "fa-edit",
+              "horizontalAlignment": "center",
+              "customTitle": true,
+              "text": "",
+              "colorPicker": {
+                "color": "#595959"
+              },
+              "color": "#595959"
+            }
+          },
+          "tooltip": {
+            "enable": false,
+            "field": "Tooltip text goes here",
+            "fontColorPicker": {
+              "color": "#808080"
+            },
+            "fontColor": "#808080",
+            "fontSize": 12,
+            "fontSizeSlider": 12,
+            "fontStyle": "",
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "<Type in your Font Name>",
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff",
+            "opacity": 1,
+            "tooltipPosition": "bottom",
+            "mode": false,
+            "showEvent": "hover"
+          }
+        },
+        "sideMenu": {
+          "show": true,
+          "sidePlacement": "selectionPanel",
+          "sidePosition": "right",
+          "elements": [
+            {
+              "elementType": "MasterItem",
+              "displayName": "Master Item",
+              "isIconEnabled": false,
+              "icon": "",
+              "iconPosition": "left",
+              "elemAvailable": "always",
+              "elementStyle": {
+                "enableBorder": false,
+                "borderStyle": "solid",
+                "borderColor": "#cccccc",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "borderRadiusLeft": 0,
+                "borderRadiusRight": 0,
+                "borderRadiusBottom": 0,
+                "borderRadiusTop": 0,
+                "borderActive": {
+                  "borderSelector": "",
+                  "borderTop": true,
+                  "borderBottom": true,
+                  "borderLeft": true,
+                  "borderRight": true
+                }
+              },
+              "inherit": true,
+              "condition": "1",
+              "height": 564,
+              "masterItemId": "c37685b9-3285-4285-a67a-696d1a5b04a7",
+              "level": 1,
+              "cId": "JVveaRj",
+              "vzbActionsOnSheetExit": [],
+              "autoHeightMode": false,
+              "topMargin": 0,
+              "displayNameSwitch": false,
+              "tooltipSettings": {
+                "tooltip": {
+                  "enable": false,
+                  "fontColorPicker": {
+                    "color": "#808080"
+                  },
+                  "fontSizeSlider": 12,
+                  "backgroundColorPicker": {
+                    "color": "#ffffff"
+                  }
+                }
+              }
+            }
+          ],
+          "sideMenuWidth": 300,
+          "sideMenuFontSize": 13,
+          "sideMenuPosition": "right",
+          "sideMenuShowAlways": false,
+          "sideMenuCloseSetting": "manual",
+          "backgroundColorPicker": {
+            "color": "#f8f8f8"
+          },
+          "backgroundColor": "#f8f8f8",
+          "Sheet": {
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "",
+            "fontSize": 14,
+            "fontSizeSlider": 14,
+            "fontStyle": "bold,normal,none",
+            "activeMode": "underline",
+            "fontColorPicker": {
+              "color": "#595959"
+            },
+            "fontColor": "#595959",
+            "backgroundColorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "backgroundColor": "#ffffff",
+            "enableBorder": false,
+            "borderActive": {
+              "borderSelector": ""
+            },
+            "borderStyle": "solid",
+            "borderColorPicker": {
+              "color": "#cccccc"
+            },
+            "borderColor": "#cccccc",
+            "borderWidthSlider": 1,
+            "borderWidth": 1,
+            "borderRadiusSlider": 0,
+            "borderRadius": 0,
+            "borderRadiusTopSlider": 0,
+            "borderRadiusTop": 0,
+            "borderRadiusRightSlider": 0,
+            "borderRadiusRight": 0,
+            "borderRadiusBottomSlider": 0,
+            "borderRadiusBottom": 0,
+            "borderRadiusLeftSlider": 0,
+            "borderRadiusLeft": 0
+          },
+          "Text": {
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "",
+            "fontSize": 14,
+            "fontSizeSlider": 14,
+            "fontStyle": "bold,normal,none",
+            "activeMode": "underline",
+            "fontColorPicker": {
+              "color": "#595959"
+            },
+            "fontColor": "#595959",
+            "backgroundColorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "backgroundColor": "#ffffff",
+            "enableBorder": false,
+            "borderActive": {
+              "borderSelector": ""
+            },
+            "borderStyle": "solid",
+            "borderColorPicker": {
+              "color": "#cccccc"
+            },
+            "borderColor": "#cccccc",
+            "borderWidthSlider": 1,
+            "borderWidth": 1,
+            "borderRadiusSlider": 0,
+            "borderRadius": 0,
+            "borderRadiusTopSlider": 0,
+            "borderRadiusTop": 0,
+            "borderRadiusRightSlider": 0,
+            "borderRadiusRight": 0,
+            "borderRadiusBottomSlider": 0,
+            "borderRadiusBottom": 0,
+            "borderRadiusLeftSlider": 0,
+            "borderRadiusLeft": 0
+          },
+          "Group": {
+            "fontFamily": "\"QlikView Sans\", sans-serif",
+            "customFontFamily": "",
+            "fontSize": 14,
+            "fontSizeSlider": 14,
+            "fontStyle": "bold,normal,none",
+            "activeMode": "underline",
+            "fontColorPicker": {
+              "color": "#595959"
+            },
+            "fontColor": "#595959",
+            "backgroundColorPicker": {
+              "color": "#ffffff",
+              "index": -1
+            },
+            "backgroundColor": "#ffffff",
+            "enableBorder": false,
+            "borderActive": {
+              "borderSelector": ""
+            },
+            "borderStyle": "solid",
+            "borderColorPicker": {
+              "color": "#cccccc"
+            },
+            "borderColor": "#cccccc",
+            "borderWidthSlider": 1,
+            "borderWidth": 1,
+            "borderRadiusSlider": 0,
+            "borderRadius": 0,
+            "borderRadiusTopSlider": 0,
+            "borderRadiusTop": 0,
+            "borderRadiusRightSlider": 0,
+            "borderRadiusRight": 0,
+            "borderRadiusBottomSlider": 0,
+            "borderRadiusBottom": 0,
+            "borderRadiusLeftSlider": 0,
+            "borderRadiusLeft": 0
+          },
+          "Line": {
+            "backgroundColorPicker": {
+              "color": "#f8f8f8"
+            },
+            "backgroundColor": "#f8f8f8",
+            "lineColorPicker": {
+              "color": "#ccc"
+            },
+            "lineColor": "#ccc",
+            "thickness": 1,
+            "style": "solid"
+          },
+          "MasterItem": {
+            "backgroundColorPicker": {
+              "color": "#ffffff"
+            },
+            "backgroundColor": "#ffffff"
+          },
+          "masterItemOverflow": "auto"
+        },
+        "menuMaker": false,
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "sheetMenuContextVersion": "3.0",
+        "globalStyles": {
+          "tabs": {
+            "mode": 1
+          },
+          "buttons": {
+            "spacingWidth": 8,
+            "borderEnabled": false,
+            "borderColor": "#b3b3b3",
+            "borderStyle": "solid",
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColorPicker": {
+              "color": "#b3b3b3",
+              "index": -1
+            }
+          },
+          "buttonStates": {
+            "default": {
+              "color": "#323232",
+              "backgroundColor": "#FFFFFF",
+              "colorPicker": {
+                "color": "#323232",
+                "index": -1
+              },
+              "backgroundColorPicker": {
+                "color": "#FFFFFF",
+                "index": -1
+              }
+            },
+            "hover": {
+              "color": "#323232",
+              "backgroundColor": "#b0afae",
+              "colorPicker": {
+                "color": "#323232",
+                "index": -1
+              },
+              "backgroundColorPicker": {
+                "color": "#b0afae",
+                "index": -1
+              }
+            },
+            "active": {
+              "activeMode": "underline",
+              "color": "#323232",
+              "backgroundColor": "#ffffff",
+              "colorPicker": {
+                "color": "#323232",
+                "index": -1
+              },
+              "backgroundColorPicker": {
+                "color": "#ffffff",
+                "index": -1
+              }
+            }
+          }
+        },
+        "globalStylesMode": 1,
+        "sheets": {
+          "fontFamily": "\"QlikView Sans\", sans-serif",
+          "customFontFamily": "",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontStyle": "bold,normal,none",
+          "activeMode": "underline",
+          "fontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "fontColor": "",
+          "backgroundColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "backgroundColor": "",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0,
+          "borderRadiusTopSlider": 0,
+          "borderRadiusTop": 0,
+          "borderRadiusRightSlider": 0,
+          "borderRadiusRight": 0,
+          "borderRadiusBottomSlider": 0,
+          "borderRadiusBottom": 0,
+          "borderRadiusLeftSlider": 0,
+          "borderRadiusLeft": 0
+        },
+        "activeSheet": {
+          "fontFamily": "\"QlikView Sans\", sans-serif",
+          "customFontFamily": "",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontStyle": "bold,normal,none",
+          "activeMode": "background",
+          "fontColorPicker": {
+            "color": "#ffffff",
+            "index": -1
+          },
+          "fontColor": "#ffffff",
+          "backgroundColorPicker": {
+            "color": "#7b7a78",
+            "index": -1
+          },
+          "backgroundColor": "#7b7a78",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0,
+          "borderRadiusTopSlider": 0,
+          "borderRadiusTop": 0,
+          "borderRadiusRightSlider": 0,
+          "borderRadiusRight": 0,
+          "borderRadiusBottomSlider": 0,
+          "borderRadiusBottom": 0,
+          "borderRadiusLeftSlider": 0,
+          "borderRadiusLeft": 0
+        },
+        "hover": {
+          "fontFamily": "\"QlikView Sans\", sans-serif",
+          "customFontFamily": "",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontStyle": "bold,normal,none",
+          "activeMode": "underline",
+          "fontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "fontColor": "",
+          "backgroundColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "backgroundColor": "",
+          "enableBorder": false,
+          "borderActive": {
+            "borderSelector": ""
+          },
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "#cccccc"
+          },
+          "borderColor": "#cccccc",
+          "borderWidthSlider": 1,
+          "borderWidth": 1,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0,
+          "borderRadiusTopSlider": 0,
+          "borderRadiusTop": 0,
+          "borderRadiusRightSlider": 0,
+          "borderRadiusRight": 0,
+          "borderRadiusBottomSlider": 0,
+          "borderRadiusBottom": 0,
+          "borderRadiusLeftSlider": 0,
+          "borderRadiusLeft": 0
+        },
+        "buttons": {
+          "buttonSize": "large",
+          "fontSize": 14,
+          "fontSizeSlider": 14,
+          "fontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "fontColor": "",
+          "hoverFontColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "hoverFontColor": "",
+          "backgroundColorPicker": {
+            "color": ""
+          },
+          "backgroundColor": "",
+          "hoverBackgroundColorPicker": {
+            "color": ""
+          },
+          "hoverBackgroundColor": "",
+          "enableBorder": false,
+          "borderselector": "",
+          "borderStyle": "solid",
+          "borderColorPicker": {
+            "color": "",
+            "index": -1
+          },
+          "borderColor": "",
+          "borderWidth": 0,
+          "borderRadiusSlider": 0,
+          "borderRadius": 0
+        },
+        "customSelection": {
+          "show": false,
+          "selectedColorPicker": {
+            "color": "#3C43B7"
+          },
+          "selectedColor": "#3C43B7",
+          "alternativeColorPicker": {
+            "color": "#dddddd"
+          },
+          "alternativeColor": "#dddddd",
+          "availableColorPicker": {
+            "color": "#ffffff"
+          },
+          "availableColor": "#ffffff",
+          "excludedColorPicker": {
+            "color": "#a9a9a9"
+          },
+          "excludedColor": "#a9a9a9"
+        },
+        "mobileMenu": 0,
+        "vzbActions": [],
+        "isExtensionShowed": true,
+        "show": {
+          "sheetName": false,
+          "sheetMenu": true,
+          "baseSheets": true,
+          "navButtons": true,
+          "customStyles": ""
+        },
+        "nativeSheetTitle": "current",
+        "swipeDesktop": false,
+        "props": {
+          "about": ""
+        },
+        "visualization": "VizlibSheetMenu",
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "version": "3.5.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "menu",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": " Vizlib Sheet Menu v3.5.1",
+          "description": "The Vizlib Sheet Menu is a highly-customisable and easy-to-use extension for Qlik Sense that allows you to achieve Mashup-like style in just a few clicks, without any custom development. It mirrors the design of navigation bars in web apps, allowing you to group and neatly organise charts for quick and easy access.",
+          "template": "VizlibSheetMenu",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "preview": "VizlibSheetMenu.png",
+          "version": "3.5.1",
+          "bundle": {
+            "id": "vizlib-bundle",
+            "name": "Vizlib Library",
+            "description": "Vizlib is an advanced extension library for Qlik Sense offering a better way to communicate data by leveraging vizualisations, tables and control components. ........................................................... www.vizlib.com"
+          },
+          "author": "Vizlib ltd.",
+          "homepage": "Vizlib.com",
+          "email": "support@vizlib.com",
+          "keywords": "qlik-sense, visualization",
+          "license": "2018 © Vizlib Ltd. - All rights reserved.",
+          "tc": "http://www.vizlib.com/termsandconditions/",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=3.0.x"
+          },
+          "previewIconURL": "https://qst.syngenta.com/extensions/VizlibSheetMenu/VizlibSheetMenu.png"
+        },
+        "logo.actions": []
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "TfEEJP",
+          "qType": "VizlibAdvancedTextObject"
+        },
+        "qMetaDef": {},
+        "text": "<p style=\"text-align: left;\"><em class=\"ql-size-huge\"><i class=\"fa fa-align-justify\"> </i></em><span class=\"ql-size-huge\">Predicciones</span></p>",
+        "props": {
+          "iconpicker": "",
+          "icons": {
+            "showmaximize": false,
+            "showsnapshot": false
+          },
+          "about": ""
+        },
+        "fontcolor": "#ffffff",
+        "fontsize": 26,
+        "fontsizeslider": 26,
+        "fontfamily": "\"QlikView Sans\", sans-serif",
+        "customfontfamily": "<Type in your Font Name>",
+        "fontstyle": "bold,italic",
+        "dropshadow": false,
+        "show": "always",
+        "showHideCondition": "",
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": false,
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "horizontalalignment": "left",
+        "verticalalignment": "middle",
+        "borderstyle": "none",
+        "borderwidth": 1,
+        "borderselector": "",
+        "bordercolor": "#000000",
+        "radius": 0,
+        "topleftradius": 0,
+        "toprightradius": 0,
+        "bottomleftradius": 0,
+        "bottomrightradius": 0,
+        "bgtype": "color",
+        "backgroundcolor": "",
+        "bgimage": "",
+        "imagestretch": "nostretch",
+        "backgroundtransparency": 1,
+        "iframeurl": "http://",
+        "extStyleMode": false,
+        "extBackgroundColor": "",
+        "extBackgroundtransparency": 1,
+        "ttp": {
+          "enabled": false,
+          "tooltipMode": "hover",
+          "showArrow": true,
+          "showQuestionMark": true,
+          "advancedMode": false,
+          "content": "This is my <u>Vizlib</u> <b>Tooltip</b>!",
+          "contentColorPickerExpr": "#FFFFFF",
+          "contentBackgroundExpr": "#7B7A78",
+          "showTitle": false,
+          "titleContent": "My title",
+          "titleColorPickerExpr": "#FFFFFF",
+          "titleBackgroundExpr": "#000000",
+          "size": "small",
+          "typeWidth": "fixed",
+          "width": "200",
+          "maxWidth": "30%",
+          "position": "bottom",
+          "offsetX": "0",
+          "offsetY": "0",
+          "interactiveTooltip": false,
+          "showOnLoad": false,
+          "speed": "150",
+          "delay": "100",
+          "hideDelay": "100",
+          "enableAnimations": false,
+          "animationIn": "tada",
+          "animationOut": "fadeOut",
+          "contentColor": "#FFFFFF",
+          "contentBackground": "#7B7A78"
+        },
+        "smartEditor": true,
+        "animateNumbers": false,
+        "useCommaAsDecimals": false,
+        "animateNumDuration": "500",
+        "scroll": {
+          "usescroll": true,
+          "y": true,
+          "x": true
+        },
+        "wraptext": true,
+        "action": [],
+        "visualization": "VizlibAdvancedTextObject",
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": [],
+          "showTitles": false,
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": [],
+              "qDynamicScript": []
+            }
+          }
+        },
+        "vMeta": {
+          "creationVersion": "1.7.14"
+        },
+        "version": "1.7.12",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "text",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": " Vizlib Advanced Text Object v1.7.14",
+          "description": "Classic QlikView text object with extended formatting options, HTML support, actions, copy text to clipboard and tooltip features.",
+          "template": "VizlibAdvancedTextObject",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "type": "visualization",
+          "preview": "VizlibAdvancedTextObject.png",
+          "email": "support@vizlib.com",
+          "version": "1.7.14",
+          "bundle": {
+            "id": "vizlib-bundle",
+            "name": "Vizlib Library",
+            "description": "Vizlib is an advanced extension library for Qlik Sense offering a better way to communicate data by leveraging vizualisations, tables and control components. ........................................................... www.vizlib.com"
+          },
+          "author": "Vizlib Ltd.",
+          "homepage": "Vizlib.com",
+          "keywords": "qlik-sense, visualization",
+          "license": "2017 © Vizlib Ltd. - All rights reserved.",
+          "tc": "http://www.vizlib.com/termsandconditions",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=2.2.4"
+          },
+          "src": "/extensions/VizlibAdvancedTextObject/VizlibAdvancedTextObject.png",
+          "previewIconURL": "https://qst.syngenta.com/extensions/VizlibAdvancedTextObject/VizlibAdvancedTextObject.png"
+        },
+        "fontColorPicker": {
+          "index": -1,
+          "color": "#ffffff"
+        },
+        "BGColorPicker": {
+          "color": "",
+          "index": 2
+        },
+        "extColorPicker": {
+          "color": "",
+          "index": 10
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

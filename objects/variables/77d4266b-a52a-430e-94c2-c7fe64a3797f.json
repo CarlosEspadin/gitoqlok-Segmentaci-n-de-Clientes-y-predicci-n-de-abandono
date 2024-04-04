@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "77d4266b-a52a-430e-94c2-c7fe64a3797f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCluster",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "3",
+  "tags": []
+}

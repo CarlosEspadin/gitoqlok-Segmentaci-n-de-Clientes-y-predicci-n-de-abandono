@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "635c1640-0256-4407-ade8-916357b464e3",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "DISABLE_INSIGHTS",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "1",
+  "tags": []
+}
